@@ -58,3 +58,12 @@ margin-left: 1px;
 color:white;
 
 }
+
+.nav{
+background:gray;
+
+}
+	#sidenav{
+		position:fixed;
+		height:100%;
+	}
