@@ -1,3 +1,27 @@
+/* Style for top nav */
+
+.navPad{
+	padding-right:20px;
+	color:white;
+	margin-bottom:10px;
+}
+
+.navPad:hover{
+	color:#FCFCFC;
+}
+#topnav{
+	height: 50px;
+}
+
+#navClass{
+	color:white;
+}
+
+
+
+
+
+
 	/* BOXES IN MAIN */
 
 .collum{
