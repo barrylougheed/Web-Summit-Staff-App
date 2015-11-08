@@ -1,0 +1,60 @@
+	/* BOXES IN MAIN */
+
+.collum{
+height:550px;
+width: 200px;
+float: left;
+margin-left: 26px;
+}
+
+
+
+.item{
+height:168px;
+width: 170px;
+margin-top:10px;
+padding: 0;
+text-decoration: none;
+list-style: none;
+border: 1px solid ;
+border-radius: 5px;
+
+}
+
+.content{
+font-size:14px;
+color:black;
+font-weight:normal;
+position:relative;
+
+}
+.content img
+{
+width:99%;
+height:50px;
+margin-left: 1px;
+}
+/* this is the is for the top of the six buttons/links for each of the six boxes contained within the main div*/
+.top{
+	width: 156px;
+	color: white;
+	border:2px solid black;
+	text-align:center;
+	padding: 5px 5px;
+	text-decoration:none;
+	list-style:none;
+	font-size: 15px;
+	font-weight: bold;
+	background:blue;
+	background: blue;
+	background: blue;
+}
+	.top:hover
+	{
+		background: white;
+		background: white;
+	}
+.top a {
+color:white;
+
+}
