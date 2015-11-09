@@ -16,8 +16,10 @@
 #navClass{
 	color:white;
 }
-
-
+#sidenav{
+position:fixed;
+height:100%;
+}
 
 
 
@@ -28,6 +30,7 @@
 height:550px;
 width: 200px;
 float: left;
+margin-top:50px;
 margin-left: 26px;
 }
 
