@@ -89,3 +89,28 @@ margin-left: 1px;
 color:white;
 
 }
+.vis{
+
+	display:block;
+}
+.replacevis{
+	display:none;
+}
+@media (max-width: 913px){
+.collum{
+margin-left: 15px;
+}
+}
+@media (max-width: 869px){
+
+}
+@media (max-width: 767px) {
+	.vis{
+		display:none;
+	}
+	.collum{
+margin-left: 26px;
+}
+
+
+}
