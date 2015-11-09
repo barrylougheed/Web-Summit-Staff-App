@@ -89,3 +89,20 @@ margin-left: 1px;
 color:white;
 
 }
+.vis{
+
+	display:block;
+}
+.replacevis{
+	display:none;
+}
+@media (max-width: 629px) {
+	.vis{
+		display:none;
+	}
+	.replacevis{
+	display:block;
+}
+
+
+}
