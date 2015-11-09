@@ -11,16 +11,20 @@
 }
 #topnav{
 	height: 50px;
-}
+	}
 
 #navClass{
 	color:white;
 }
 #sidenav{
-position:fixed;
-height:100%;
+height:2000px;
+width:100%;
 }
-
+.fixednav{
+	width:100%;
+	position:fixed;
+	z-index: 300;
+}
 
 
 
