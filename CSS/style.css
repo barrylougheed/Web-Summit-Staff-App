@@ -25,6 +25,11 @@ width:100%;
 	position:fixed;
 	z-index: 300;
 }
+.dropDownStyle{
+	color:black;
+	background-color: grey;
+	margin-top: 100px;
+}
 
 
 
@@ -114,3 +119,35 @@ margin-left: 26px;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+/* Test for dropdown */
+/*style the sub menu*/
+#topNav li ul {
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+#topNav li ul li {
+	display:inline;
+	float:none;
+}
+
+#topNav li ul li a:link, #topNav  li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+}
+
+#topNav  li ul li a:hover {
+	background-color:#0CF;	
+}
+		
