@@ -37,59 +37,60 @@ width:100%;
 
 .collum{
 height:550px;
-width: 200px;
+width: 150px;
 float: left;
 margin-top:50px;
-margin-left: 26px;
+margin-left: 150px;
+
 }
 
 
 
-.item{
-height:168px;
+.item {
+height:170px;
 width: 170px;
-margin-top:10px;
+margin-top:40px;
 padding: 0;
 text-decoration: none;
 list-style: none;
 border: 1px solid ;
-border-radius: 5px;
+border-radius: 50%;
+background:  grey;
 
 }
 
+
 .content{
 font-size:14px;
-color:black;
 font-weight:normal;
 position:relative;
+border-radius: 50%;
 
 }
 .content img
 {
-width:99%;
+width:50%;
 height:50px;
 margin-left: 1px;
+border-radius:50%;
 }
+
 /* this is the is for the top of the six buttons/links for each of the six boxes contained within the main div*/
-.top{
-	width: 156px;
+.top {
+	width:63%;
+	height:20%;
 	color: white;
-	border:2px solid black;
+	margin:0 auto;
 	text-align:center;
-	padding: 5px 5px;
+	padding: 2px 2px;
 	text-decoration:none;
 	list-style:none;
 	font-size: 15px;
 	font-weight: bold;
+	border-radius:50%;
 	background:blue;
-	background: blue;
-	background: blue;
 }
-	.top:hover
-	{
-		background: white;
-		background: white;
-	}
+	
 .top a {
 color:white;
 
@@ -160,3 +161,79 @@ margin-left: 26px;
 	background-color:#0CF;	
 }
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		.small {
+-webkit-transform: scale(0.7, 0.7);
+   -moz-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7,0.7);
+        transform: scale(0.7, 0.7);
+
+}
+
+.vid {
+	
+-webkit-transition: -webkit-transform 1s ease-in;
+   -moz-transition: -moz-transform 1s ease-in;
+    transition: transform 1s ease-in;
+		
+height:200px;
+width: 200px;
+margin-top:40px;
+padding: 0;
+text-decoration: none;
+list-style: none;
+border: 1px solid ;
+border-radius: 50%;
+background:  grey;
+}
+
+
+.center{
+	width:93%;
+	height:40%;
+	background:green;
+	border-radius:50%;
+	margin: 0 auto;
+}
+
+
+.bottom{
+	width:75%;
+	height:38%;
+	background:red;
+	border-radius:50%;
+	margin: 0 auto;
+	text-align:center;
+	padding: 2px 2px;
+	text-decoration:none;
+	list-style:none;
+	font-size: 15px;
+	font-weight: bold;
+	color:white;
+}
+
+
+
