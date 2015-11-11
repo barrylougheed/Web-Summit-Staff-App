@@ -121,6 +121,15 @@ margin-left: 26px;
 }
 
 
+/* 
+        ******* Test data for  draggable *******
+*/
+
+#draggable{
+	width:200px;
+	height:200px;
+	background-color:black;
+}
 
 
 

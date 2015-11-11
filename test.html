@@ -39,7 +39,7 @@
                     		<li><a href="">Barry has been creeping on you</a></li>
                     	</ul>
                     </li>
-                    <li class= "navPad"><a href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <li class= "navPad" id = "dropable"><a href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     	Fav's</a></li>
                    
 
@@ -49,15 +49,30 @@
        </div>
 
 	</nav>
+
+  <div id = "draggable"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript">
-      $(document).ready(function(){     
+   $(document).ready(function(){     
+        
+         $(function(){
+             $('#draggable').draggable({
+                revert: true
+                //zIndex: 1
+             });
 
-    	  $('.dropdown').hover(function(){
+             $('#dropable').droppable({
+                //transfer data on drop
+             })
+
+             var pos = draggable.getBoundingClientRect();
+             console.log(pos.top, pos.right, pos.bottom) 
+            }); 
+    	  /* $('.dropdown').hover(function(){
                   $('ul #dropdownNav').slideDown('medium');
       		},function(){
                  $('ul',this).slideUp(1000);
-      		});
+      		}); */
 
     	 
  	  });
