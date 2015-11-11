@@ -30,7 +30,16 @@ width:100%;
 	background-color: grey;
 	margin-top: 100px;
 }
-
+.tempbtn{
+	position:fixed;
+	top:200px;
+}
+/* wrapper for main (iframe)*/
+#framewrap{
+	width:100%; 
+	height:750px;
+	border-style:none;
+}
 
 
 	/* BOXES IN MAIN */
