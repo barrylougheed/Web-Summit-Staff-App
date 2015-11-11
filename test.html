@@ -15,6 +15,9 @@
      <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
      <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 
+      <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
+      <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
+
 </head>
 
 <!-- This is a test page which you can experitment with -->
@@ -50,33 +53,9 @@
 
 	</nav>
 
-  <div id = "draggable"></div>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript">
-   $(document).ready(function(){     
-        
-         $(function(){
-             $('#draggable').draggable({
-                revert: true
-                //zIndex: 1
-             });
-
-             $('#dropable').droppable({
-                //transfer data on drop
-             })
-
-             var pos = draggable.getBoundingClientRect();
-             console.log(pos.top, pos.right, pos.bottom) 
-            }); 
-    	  /* $('.dropdown').hover(function(){
-                  $('ul #dropdownNav').slideDown('medium');
-      		},function(){
-                 $('ul',this).slideUp(1000);
-      		}); */
-
-    	 
- 	  });
-
 
     </script>
 
@@ -95,7 +74,7 @@
 	 <!-- COLLUM -->
 <div class="collum">
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
   <div class="top"> 
   text
   </div>
@@ -106,7 +85,7 @@
   </div>
   </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
@@ -117,11 +96,11 @@ info
   </div>
 </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
-  <div class="center">
+  <div class="center draggable">
 </div>
 <div class="bottom">
 info
@@ -133,7 +112,7 @@ info
 <!--COLLUM 2 -->
 <div class="collum">
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
   <div class="top"> 
   storage
   </div>
@@ -144,7 +123,7 @@ info
   </div>
   </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
         <div class="top"> 
 		text
   </div>    
@@ -155,7 +134,7 @@ info
   </div>
 </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
          <div class="top"> 
 		 text
   </div>   
@@ -172,7 +151,7 @@ info
 <!-- COLLUM 3 -->
 <div class="collum">
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
   <div class="top"> 
   text
   </div>
@@ -184,7 +163,7 @@ info
   
   </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
@@ -195,7 +174,7 @@ info
   </div>
 </div>
 
-<div class="vid small"  >
+<div class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
