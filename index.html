@@ -3,16 +3,25 @@
 <head>
 	<title>Web summit Staff App</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+
 		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
 
 		<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
 		
 	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
-	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-	    <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
-	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
-	    <script type="text/JavaScript" src="JS/frameBehaviour.js" ></script>
 
+	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+	    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+	    <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
+
+	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	    <script src="JS/frameBehaviour"></script>
+	    
 </head>
 <body>
 	<div class="row fixednav vis">
@@ -64,8 +73,13 @@
 	<div class="row">
 <div class="col-sm-3">
 </div>
+
 <div class="main col-sm-9" id="homemain">
-		<iframe id="framewrap" src="Hassantest.html"></iframe>
+		 <script type="text/javascript">
+            $(function(){
+                $("#homemain").load("test.txt");
+            });
+        </script>
 </div>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 

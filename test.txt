@@ -1,0 +1,114 @@
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+  <div class="bottom">
+  info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center draggable">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<!--COLLUM 2 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  storage
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+        <div class="top"> 
+		text
+  </div>    
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+         <div class="top"> 
+		 text
+  </div>   
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+</div>
+
+</div>
+
+<!-- COLLUM 3 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+<div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>

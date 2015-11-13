@@ -1,0 +1,119 @@
+<div id="centermain">
+								<div class="collum"> 
+
+									<div class="item draggable"> 
+										drag
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank"> text </a>
+										</div>
+										<div class="content">
+											<img src="">
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+							 
+									<div class="item"> 
+										<div class="top draggable"> 
+											<a href="https://www.google.ie" target="_blank"> text </a> 
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+							 
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank"> text </a>
+										</div>
+										<div class="content">
+										<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+								</div><!--collum1end-->
+								<!--Collum2-->
+								<div class="collum"> 
+							
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text </a>
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+												<div class="fontplaceholder">
+													<p>text</p>
+												</div>
+										</div>
+									</div>
+							 
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text </a>
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+							 
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text </a> 
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" > 
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+								</div><!--Collum2end-->
+								
+								<!--Collum3-->
+								<div class="collum"> 
+							
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text </a>
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+							 
+									<div class="item"> 
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text </a>
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="top"> 
+											<a href="https://www.google.ie" target="_blank" > text</a>
+										</div>
+										<div class="content">
+											<img src="" height="50px;" width="90%" >
+											<div class="fontplaceholder">
+												<p>text</p> 
+											</div>
+										</div>
+									</div>
+								</div> <!--Collum3end-->
+		</div>

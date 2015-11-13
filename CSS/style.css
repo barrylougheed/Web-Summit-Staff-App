@@ -11,7 +11,7 @@
 }
 #topnav{
 	height: 50px;
-	z-index: 0;
+	z-index: 100;
 	}
 
 #navClass{
