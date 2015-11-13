@@ -24,7 +24,7 @@ width:100%;
 .fixednav{
 	width:100%;
 	position:fixed;
-	z-index: 300;
+	z-index: 30;
 }
 .dropDownStyle{
 	color:black;
@@ -54,7 +54,12 @@ margin-left: 150px;
 
 }
 
+#homemain{
 
+	position:relative;
+	z-index:50;
+
+}
 
 .item {
 height:170px;
