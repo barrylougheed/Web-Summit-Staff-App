@@ -19,7 +19,7 @@ $(document).ready(function(){
 				$("#homemain2").fadeIn(1000,"linear");
 				//$("#homemain").removeClass("active").addClass("inactive");
 			});
-			$("#homemain2").fadeIn("slow");
+			//$("#homemain2").fadeIn("slow");
 		}else if(this.id == 'home'){
 			$("#homemain2").fadeOut(1000,"swing",function(){
 				//$("#homemain").removeClass("inactive").addClass("active");
