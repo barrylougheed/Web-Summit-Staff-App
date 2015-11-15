@@ -12,7 +12,6 @@
 $(document).ready(function(){
 	$('#home, #test').click(function(){
 		if(this.id == 'test'){
-		  				
 			$("#homemain").fadeOut(1000,"swing",function(){
 				//$("#homemain2").removeClass("inactive").addClass("active");
 				$("#homemain2").load("./hassantest.txt");
@@ -29,6 +28,5 @@ $(document).ready(function(){
 			});
 			//$("#homemain").fadeIn("slow");
 		}
-
 	});
 });
