@@ -11,7 +11,6 @@
 }
 #topnav{
 	height: 50px;
-	z-index: 100;
 	}
 
 #navClass{
@@ -19,7 +18,7 @@
 }
 #sidenav{
 height:2000px;
-width:100%;
+width:85%;
 }
 .fixednav{
 	width:100%;
@@ -51,7 +50,7 @@ height:550px;
 width: 150px;
 float: left;
 margin-top:50px;
-margin-left: 150px;
+margin-left: 130px;
 
 }
 
@@ -111,9 +110,19 @@ color:white;
 .replacevis{
 	display:none;
 }
+@media (max-width: 1153px){
+	.collum{
+margin-left: 85px;
+}
+}
+@media (max-width: 1053px){
+	.collum{
+margin-left: 65px;
+}
+}
 @media (max-width: 913px){
 .collum{
-margin-left: 15px;
+margin-left: 25px;
 }
 }
 @media (max-width: 869px){
@@ -124,7 +133,7 @@ margin-left: 15px;
 		display:none;
 	}
 	.collum{
-margin-left: 26px;
+margin-left: 50px;
 }
 
 
