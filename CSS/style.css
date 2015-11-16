@@ -19,11 +19,16 @@
 #sidenav{
 height:2000px;
 width:85%;
+z-index:60;
+	position:absolute;
+}
+#sidenavbtn{
+	position:absolute;
+	
 }
 .fixednav{
 	width:100%;
 	position:fixed;
-	z-index: 30;
 }
 .dropDownStyle{
 	color:black;
@@ -37,7 +42,7 @@ width:85%;
 /* wrapper for main (iframe)*/
 .main{
 position:relative;
-	z-index:100;
+	z-index:50;
 }
 
 .inactive{
@@ -135,7 +140,10 @@ margin-left: 25px;
 	.collum{
 margin-left: 50px;
 }
-
+	.sidenavactive{
+		width:300% !important;
+		display:block ;
+	}
 
 }
 

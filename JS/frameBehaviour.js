@@ -8,7 +8,12 @@
 //	}
 //});
 //});
+$(document).ready(function(){ 
+  $('#sidenavbtn').click(function(){
+        $('#sidenav').toggleClass('sidenavactive'); 
 
+      });
+});
 $(document).ready(function(){
 	$('#home, #test').click(function(){
 		if(this.id == 'test'){
