@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<title>Web summit Staff App</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+
+		<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
+		
+	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+
+	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+	    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+	    <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
+
+	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	    <script src="JS/frameBehaviour.js" type="text/JavaScript"></script>
+	    
+</head>
+<body>
+	<div class="row fixednav">
+		<div class="col-xs-3" >
+			<div id="sidenav" class="navbar-inverse vis">
+				<div class="tempbtn">
+				<input type="button" value="page1" id="home" ></input>
+				<input type="button" value="test" id="test" ></input>
+			</div>
+			</div>
+		</div>
+	<div class="col-xs-9">
+	</div>
+	</div>
+	<!--<div class="row">
+	<div class="col-md-12">  -->
+	<nav class = "navbar-fixed-top navbar-inverse" id = "topnav">
+       <div class="container-fluid">
+       			<button class = "navbar-toggle" id="sidenavbtn" >
+       				<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+       			</button>
+          
+               <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navCollapse">
+               	  
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+
+               </button>
+           
+
+           <div class="collapse navbar-collapse navCollapse" id = "navClass"> 
+ 				<ul class = "nav navbar-nav navbar-right" id="topNav">
+                    <li class = "navPad dropdown"><a href="#">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    Notifications </a>
+                   		 <ul id = "dropdownNav" class="dropdown-menu">
+                    		<li><a href="">1 New notification</a></li>
+                    		<li><a href="">Ste has been creeping on you</a></li>
+                    	</ul>
+                    </li>
+                    <li class= "navPad"><a href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    	Fav's</a></li>
+                   
+
+ 				</ul>
+           </div>
+
+       </div>
+
+	</nav>
+	<!--</div>
+	</div> -->
