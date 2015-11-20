@@ -1,1 +1,211 @@
-<?xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- 
+
+           *** We will populate the elements with the following data ******
+           
+              - Start, end time of talk
+              - A description of what the talk is about
+              - Speaker name,image, info, and detailed info of speaker
+             
+
+-->
+
+<summit:timetable xmlns:summit="http://wwww.websummit.com/timetable">
+    
+    <summit:tuesday>
+            <summit:morning>
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+                
+          
+             </summit:morning>
+    
+             <summit:afternoon>  
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+     
+     
+              </summit:afternoon>
+    
+   </summit:tuesday>
+   
+   
+   <summit:wenesday>
+            <summit:morning>
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+                
+          
+             </summit:morning>
+    
+             <summit:afternoon>  
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+     
+     
+              </summit:afternoon>
+    
+   </summit:wenesday>
+   
+   <summit:thursday>
+   
+   
+       <summit:monday>
+            <summit:morning>
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+                
+          
+             </summit:morning>
+    
+             <summit:afternoon>  
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+     
+     
+              </summit:afternoon>
+    
+   </summit:thursday>
+   
+    <summit:friday>
+   
+   
+       <summit:monday>
+            <summit:morning>
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+                
+          
+             </summit:morning>
+    
+             <summit:afternoon>  
+                  <summit:time>
+                      <summit:start> </summit:start>
+                      <summit:end> </summit:end>
+                  </summit:time>
+                  
+                  <summit:talk>
+                       <summit:description>
+                           
+                       </summit:description>
+                  </summit:talk>
+                  
+                  <summit:speaker>
+                      <summit:name></summit:name>
+                      <summit:image></summit:image>
+                      <summit:info></summit:info>
+                      <summit:detailedInfo></summit:detailedInfo>
+                  </summit:speaker>
+     
+     
+              </summit:afternoon>
+    
+   </summit:friday>
+    
+</summit:timetable>
