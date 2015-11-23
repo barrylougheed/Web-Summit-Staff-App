@@ -123,5 +123,5 @@ $("#fs").hover( function() {
     $(".vid").get(0).webkitEnterFullScreen();
     $(".vid").removeClass('small');
 });
-
+  
 </script>
