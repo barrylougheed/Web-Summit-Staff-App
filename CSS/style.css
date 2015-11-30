@@ -370,3 +370,18 @@ background:  grey;
 }
 
 
+#styleMe{
+	height:300px;
+	width:300px;
+	background-color: orange;
+}
+
+.yellow{
+	color:yellow;
+}
+
+.tempStyleDraggable{
+	width:200px;
+	height:200px;
+}
+
