@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
+<?xml-stylesheet href="../tuesTimetable.xsl" type="text/xsl"?>
 <!-- 
 
            *** We will populate the elements with the following data ******
@@ -11,1040 +12,1038 @@
 
 -->
 
-<summit:timetable xmlns:summit="http://wwww.websummit.com/timetable">
-      <summit:datastage>
-          <summit:wenesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55</summit:start>
-                            <summit:end>10:00</summit:end>
-                        </summit:time>
+<timetable xmlns="http://wwww.websummit.com/timetable">
+      <datastage>
+          <wenesday>
+                  <morning>
+                        <time>
+                            <start>9:55</start>
+                            <end>10:00</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Data Summit opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Data Summit opening remarks</title>
+                             <description>
                                  Opening remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Eamon Leonard</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/9tZ1VzcYQeKeZrAQSr9D</summit:image>
-                            <summit:info>Founder, Cohort</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Eamon Leonard</name>
+                            <image>https://www.filepicker.io/api/file/9tZ1VzcYQeKeZrAQSr9D</image>
+                            <info>Founder, Cohort</info>
+                        </speaker>
                         
-                           <summit:speaker id="2">
-                            <summit:name>PJ Hagerty</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/I0mBFJ3QP69ebIxt8Ohb</summit:image>
-                            <summit:info>Developer Evangelist,at Jut, Inc.</summit:info>
+                           <speaker id="2">
+                            <name>PJ Hagerty</name>
+                            <image>https://www.filepicker.io/api/file/I0mBFJ3QP69ebIxt8Ohb</image>
+                            <info>Developer Evangelist,at Jut, Inc.</info>
                             
-                        </summit:speaker>
+                        </speaker>
                         
                         
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00pm</summit:start>
-                            <summit:end>12:25pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00pm</start>
+                            <end>12:25pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Data products: 5 deadly sins and how to prevent them</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Data products: 5 deadly sins and how to prevent them</title>
+                             <description>
                                  Some of the most critical tendencies Data Product teams might encounter and call to actions to prevent them.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Mathieu Bastian</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513402/medium/513402?1444823322</summit:image>
-                            <summit:info>Co-Founder, Gephi</summit:info>
+                        <speaker>
+                            <name>Mathieu Bastian</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513402/medium/513402?1444823322</image>
+                            <info>Co-Founder, Gephi</info>
                             
-                        </summit:speaker>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:wenesday>
+         </wenesday>
          
          
         
        
-    </summit:datastage>
+    </datastage>
     
-    <summit:machinestage>
-        <summit:tuesday>
-                <summit:morning>
-                      <summit:time>
-                          <summit:start>10:25am</summit:start>
-                          <summit:end>10:30am</summit:end>
-                      </summit:time>
+    <machinestage>
+        <tuesday>
+                <morning>
+                      <time>
+                          <start>10:25am</start>
+                          <end>10:30am</end>
+                      </time>
                       
-                      <summit:talk>
-                          <summit:title>Machine Summit opening remarks</summit:title>
-                           <summit:description>
+                      <talk>
+                          <title>Machine Summit opening remarks</title>
+                           <description>
                                Opening remarks
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Tia Kansara</summit:name>
-                          <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/515459/medium/515459?1444823502</summit:image>
-                          <summit:info>Director, Kansara Hackney Ltd</summit:info>
+                      <speaker>
+                          <name>Tia Kansara</name>
+                          <image>https://s3.amazonaws.com/bouncer-prod/attendees/515459/medium/515459?1444823502</image>
+                          <info>Director, Kansara Hackney Ltd</info>
                           
-                      </summit:speaker>
+                      </speaker>
                     
               
-                 </summit:morning>
+                 </morning>
         
-                 <summit:afternoon>  
-                      <summit:time>
-                          <summit:start>12:00pm</summit:start>
-                          <summit:end>12:15pm</summit:end>
-                      </summit:time>
+                 <afternoon>  
+                      <time>
+                          <start>12:00pm</start>
+                          <end>12:15pm</end>
+                      </time>
                       
-                      <summit:talk>
-                          <summit:title> Augmented reality: the next industrial revolution</summit:title>
-                           <summit:description>
+                      <talk>
+                          <title> Augmented reality: the next industrial revolution</title>
+                           <description>
                              In a fireside chat, Matt Kammerait, VP of Product for Daqri and Paul Davies of Boeing explains how the pairing augmented reality wearables with the real time data of the industrial internet of things are poised to revolutionize the Future of Work.
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Matt Kammerait</summit:name>
-                          <summit:image>https://www.filepicker.io/api/file/vSy8wPpkTxKWz8TvCivg</summit:image>
-                          <summit:info>VP of Innovation, DAQRI International</summit:info>
+                      <speaker>
+                          <name>Matt Kammerait</name>
+                          <image>https://www.filepicker.io/api/file/vSy8wPpkTxKWz8TvCivg</image>
+                          <info>VP of Innovation, DAQRI International</info>
                           
-                      </summit:speaker>
+                      </speaker>
                       
-                       <summit:speaker id="2">
-                          <summit:name>Paul Davies</summit:name>
-                          <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/531865/medium/531865?1445270396</summit:image>
-                          <summit:info>Augmented Reality Technologist, Boeing</summit:info>
+                       <speaker id="2">
+                          <name>Paul Davies</name>
+                          <image>https://s3.amazonaws.com/bouncer-prod/attendees/531865/medium/531865?1445270396</image>
+                          <info>Augmented Reality Technologist, Boeing</info>
                           
-                      </summit:speaker>
+                      </speaker>
          
          
-                  </summit:afternoon>
+                  </afternoon>
         
-       </summit:tuesday>
+       </tuesday>
        
        
-       <summit:wenesday>
-                <summit:morning>
-                      <summit:time>
-                          <summit:start>9:58am</summit:start>
-                          <summit:end>10:00am</summit:end>
-                      </summit:time>
+       <wenesday>
+                <morning>
+                      <time>
+                          <start>9:58am</start>
+                          <end>10:00am</end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:title>Machine Summit opening remarks</summit:title>
-                           <summit:description>
+                      <talk>
+                           <title>Machine Summit opening remarks</title>
+                           <description>
                                Opening remarks by a very special guest, Pepper the robot.
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Pepper</summit:name>
-                          <summit:image>https://www.filepicker.io/api/file/MNJu9weTnudsnHzlYNMd</summit:image>
-                          <summit:info>The Robot, Aldebaran Robotics</summit:info>
+                      <speaker>
+                          <name>Pepper</name>
+                          <image>https://www.filepicker.io/api/file/MNJu9weTnudsnHzlYNMd</image>
+                          <info>The Robot, Aldebaran Robotics</info>
                           
-                      </summit:speaker>
+                      </speaker>
                     
               
-                 </summit:morning>
+                 </morning>
         
-                 <summit:afternoon>  
-                      <summit:time>
-                          <summit:start>12:00pm</summit:start>
-                          <summit:end>12:20pm</summit:end>
-                      </summit:time>
+                 <afternoon>  
+                      <time>
+                          <start>12:00pm</start>
+                          <end>12:20pm</end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:title>Rise of the social robots</summit:title>
-                           <summit:description>
+                      <talk>
+                           <title>Rise of the social robots</title>
+                           <description>
                                As we discover the endless possibilities robots and machine learning can have in society, when it comes to healthcare, automation and the workplace, we also need to learn to adapt to new risks and embrace new responsibilities.
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Erica Young</summit:name>
-                          <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/515210/medium/515210?1444823146</summit:image>
-                          <summit:info>Advisor, Insight Robotics</summit:info>
+                      <speaker>
+                          <name>Erica Young</name>
+                          <image>https://s3.amazonaws.com/bouncer-prod/attendees/515210/medium/515210?1444823146</image>
+                          <info>Advisor, Insight Robotics</info>
                           
-                      </summit:speaker>
-                       <summit:speaker id="2">
-                          <summit:name>Naveen Rao</summit:name>
-                          <summit:image>https://www.filepicker.io/api/file/LOgE8N43QUq54K452Ga9</summit:image>
-                          <summit:info>CEO, Nervana Systems</summit:info>
-                      </summit:speaker>
+                      </speaker>
+                       <speaker id="2">
+                          <name>Naveen Rao</name>
+                          <image>https://www.filepicker.io/api/file/LOgE8N43QUq54K452Ga9</image>
+                          <info>CEO, Nervana Systems</info>
+                      </speaker>
                       
-                      <summit:speaker id="3">
-                          <summit:name>Cynthia Breazeal</summit:name>
-                          <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/536333/medium/536333?1445270405</summit:image>
-                          <summit:info>Founder & Chief Scientist, Jibo</summit:info>
-                      </summit:speaker>
+                      <speaker id="3">
+                          <name>Cynthia Breazeal</name>
+                          <image>https://s3.amazonaws.com/bouncer-prod/attendees/536333/medium/536333?1445270405</image>
+                          <info>Founder and Chief Scientist, Jibo</info>
+                      </speaker>
                       
-                      <summit:speaker id="4">
-                          <summit:name>Olly Mann</summit:name>
-                          <summit:image>https://www.filepicker.io/api/file/NgxyqpSVQTmiCV7ACgEn</summit:image>
-                          <summit:info>Presenter, The Guardian</summit:info>
-                      </summit:speaker>
+                      <speaker id="4">
+                          <name>Olly Mann</name>
+                          <image>https://www.filepicker.io/api/file/NgxyqpSVQTmiCV7ACgEn</image>
+                          <info>Presenter, The Guardian</info>
+                      </speaker>
                       
                      
          
          
-                  </summit:afternoon>
+                  </afternoon>
         
-       </summit:wenesday>
+       </wenesday>
        
-       <summit:thursday>
+       <thursday>
        
        
         
-                <summit:morning>
-                      <summit:time>
-                          <summit:start>10:25pm</summit:start>
-                          <summit:end>10:30pm</summit:end>
-                      </summit:time>
+                <morning>
+                      <time>
+                          <start>10:25pm</start>
+                          <end>10:30pm</end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:title>Machine Summit opening remarks</summit:title>
-                           <summit:description>
+                      <talk>
+                           <title>Machine Summit opening remarks</title>
+                           <description>
                                Opening remarks from Caroline O'Driscoll, Partner at KPMG Ireland.
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Caroline O'Driscoll</summit:name>
-                          <summit:image>https://www.filepicker.io/api/file/TmneUQnuTpuxQQgAKWbd</summit:image>
-                          <summit:info>Partner, KPMG</summit:info>
+                      <speaker>
+                          <name>Caroline O'Driscoll</name>
+                          <image>https://www.filepicker.io/api/file/TmneUQnuTpuxQQgAKWbd</image>
+                          <info>Partner, KPMG</info>
                           
-                      </summit:speaker>
+                      </speaker>
                     
               
-                 </summit:morning>
+                 </morning>
         
-                 <summit:afternoon>  
-                      <summit:time>
-                          <summit:start>1:00pm</summit:start>
-                          <summit:end>1:15pm</summit:end>
-                      </summit:time>
+                 <afternoon>  
+                      <time>
+                          <start>1:00pm</start>
+                          <end>1:15pm</end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:title>Do you have the right skills to scale?</summit:title>
-                           <summit:description>
+                      <talk>
+                           <title>Do you have the right skills to scale?</title>
+                           <description>
                                Nate Walkingshaw is the Chief Product Officer of Pluralsight, a growth tech company focused on democratizing technology learning. In his talk he will share four stories on how you can develop products to scale that people love.
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name>Nate Walkingshaw</summit:name>
-                          <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/516044/medium/516044?1444823239</summit:image>
-                          <summit:info>Chief Product Officer , Pluralsight</summit:info>
-                      </summit:speaker>
+                      <speaker>
+                          <name>Nate Walkingshaw</name>
+                          <image>https://s3.amazonaws.com/bouncer-prod/attendees/516044/medium/516044?1444823239</image>
+                          <info>Chief Product Officer , Pluralsight</info>
+                      </speaker>
          
          
-                  </summit:afternoon>
+                  </afternoon>
         
-       </summit:thursday>
+       </thursday>
        
-        <summit:friday>
+        <friday>
        
        
-           <summit:monday>
-                <summit:morning>
-                      <summit:time>
-                          <summit:start> </summit:start>
-                          <summit:end> </summit:end>
-                      </summit:time>
+          
+                <morning>
+                      <time>
+                          <start> </start>
+                          <end> </end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:description>
+                      <talk>
+                           <description>
                                
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name></summit:name>
-                          <summit:image></summit:image>
-                          <summit:info></summit:info>
+                      <speaker>
+                          <name></name>
+                          <image></image>
+                          <info></info>
                           
-                      </summit:speaker>
+                      </speaker>
                     
               
-                 </summit:morning>
+                 </morning>
         
-                 <summit:afternoon>  
-                      <summit:time>
-                          <summit:start> </summit:start>
-                          <summit:end> </summit:end>
-                      </summit:time>
+                 <afternoon>  
+                      <time>
+                          <start> </start>
+                          <end> </end>
+                      </time>
                       
-                      <summit:talk>
-                           <summit:description>
+                      <talk>
+                           <description>
                                
-                           </summit:description>
-                      </summit:talk>
+                           </description>
+                      </talk>
                       
-                      <summit:speaker>
-                          <summit:name></summit:name>
-                          <summit:image></summit:image>
-                          <summit:info></summit:info>
+                      <speaker>
+                          <name></name>
+                          <image></image>
+                          <info></info>
                           
-                      </summit:speaker>
+                      </speaker>
          
          
-                  </summit:afternoon>
+                  </afternoon>
         
-       </summit:friday>
+       </friday>
        
-    </summit:machinestage>
-    <summit:codestage>
-         <summit:thursday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00</summit:start>
-                            <summit:end>10:25</summit:end>
-                        </summit:time>
+    </machinestage>
+    <codestage>
+         <thursday>
+                  <morning>
+                        <time>
+                            <start>10:00</start>
+                            <end>10:25</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  JavaScript is eating the world
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Kevin Lacker</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513420/medium/513420?1444823209</summit:image>
-                            <summit:info>Co-Founder and CTO at Parse</summit:info>
+                        <speaker>
+                            <name>Kevin Lacker</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513420/medium/513420?1444823209</image>
+                            <info>Co-Founder and CTO at Parse</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:15</summit:start>
-                            <summit:end>12:40</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:15</start>
+                            <end>12:40</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  Application ops Ladder
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Bryan Liles</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513519/medium/513519?1444824009</summit:image>
-                            <summit:info>Cloud Engineer at Digital Ocean</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:thursday>
-    </summit:codestage>
-    <summit:healthtechstage>
-         <summit:thursday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00</summit:start>
-                            <summit:end>10:05</summit:end>
-                        </summit:time>
+                        <speaker>
+                            <name>Bryan Liles</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513519/medium/513519?1444824009</image>
+                            <info>Cloud Engineer at Digital Ocean</info>
+                        </speaker>
+                    </afternoon>
+         </thursday>
+    </codestage>
+    <healthtechstage>
+         <thursday>
+                  <morning>
+                        <time>
+                            <start>10:00</start>
+                            <end>10:05</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  Opening Remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Dr. Nina Byrnes</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/XcUUe0qVS1WLXTU7RtvY</summit:image>
-                            <summit:info>Founder and Principal GP at Generation Health and MyGlobalERx.com</summit:info>
+                        <speaker>
+                            <name>Dr. Nina Byrnes</name>
+                            <image>https://www.filepicker.io/api/file/XcUUe0qVS1WLXTU7RtvY</image>
+                            <info>Founder and Principal GP at Generation Health and MyGlobalERx.com</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00</summit:start>
-                            <summit:end>12:20</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00</start>
+                            <end>12:20</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  Why the future of healthcare is cognitive
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Williams Evans</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/520029/medium/520029?1444824432</summit:image>
-                            <summit:info>CMO IBM Watson Health at IBM</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:thursday>
-    </summit:healthtechstage>
-     <summit:musicstage>
-         <summit:thursday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>10:20</summit:start>
-                            <summit:end>10:40</summit:end>
-                        </summit:time>
+                        <speaker>
+                            <name>Williams Evans</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/520029/medium/520029?1444824432</image>
+                            <info>CMO IBM Watson Health at IBM</info>
+                        </speaker>
+                    </afternoon>
+         </thursday>
+    </healthtechstage>
+     <musicstage>
+         <thursday>
+                  <morning>
+                        <time>
+                            <start>10:20</start>
+                            <end>10:40</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  Adventures in Music Discovery
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Matthew Ogle</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/P8umgZHlRpCvw8zU6urW</summit:image>
-                            <summit:info>Sr Product Owner, What To Play at spotify</summit:info>
+                        <speaker>
+                            <name>Matthew Ogle</name>
+                            <image>https://www.filepicker.io/api/file/P8umgZHlRpCvw8zU6urW</image>
+                            <info>Sr Product Owner, What To Play at spotify</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00</summit:start>
-                            <summit:end>12:20</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00</start>
+                            <end>12:20</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:description>
+                        <talk>
+                             <description>
                                  Are records labels Still
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Cliff Chenfeld</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/517208/medium/517208?1444823456</summit:image>
-                            <summit:info>Owner at Razor and tie</summit:info>
-                        </summit:speaker>
-                        <summit:speaker id="2">
-                            <summit:name>Dave Fanning</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/RIQrV05HTaqqYuDwXytj</summit:image>
-                            <summit:info>Broadcaster at RTE</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:thursday>
-    </summit:musicstage>
+                        <speaker id="1">
+                            <name>Cliff Chenfeld</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/517208/medium/517208?1444823456</image>
+                            <info>Owner at Razor and tie</info>
+                        </speaker>
+                        <speaker id="2">
+                            <name>Dave Fanning</name>
+                            <image>https://www.filepicker.io/api/file/RIQrV05HTaqqYuDwXytj</image>
+                            <info>Broadcaster at RTE</info>
+                        </speaker>
+                    </afternoon>
+         </thursday>
+    </musicstage>
     
-    <summit:designstage>
-        <summit:tuesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55am</summit:start>
-                            <summit:end>10:00am</summit:end>
-                        </summit:time>
+    <designstage>
+        <tuesday>
+                  <morning>
+                        <time>
+                            <start>9:55am</start>
+                            <end>10:00am</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:title>Design Summit opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                            <title>Design Summit opening remarks</title>
+                             <description>
                                 Opening remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Jeffrey Veen</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513449/medium/513449?1444823609</summit:image>
-                            <summit:info>Design Partner, True Ventures</summit:info>
+                        <speaker>
+                            <name>Jeffrey Veen</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513449/medium/513449?1444823609</image>
+                            <info>Design Partner, True Ventures</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00</summit:start>
-                            <summit:end>12:20</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00</start>
+                            <end>12:20</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Culture crafting - how designers reimagine and define your future</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Culture crafting - how designers reimagine and define your future</title>
+                             <description>
                                  Society has become obsessed with cool tech products, and Design has become the single most powerful economic driver. How are designers creating these winning solutions that are meaningful to you, while advancing culture at large?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Dan Harden</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/MtmhaZqQZ6XWLnKKSnGg</summit:image>
-                            <summit:info>President, CEO & Principal Designer, Whipsaw, Inc.</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:tuesday>
+                        <speaker>
+                            <name>Dan Harden</name>
+                            <image>https://www.filepicker.io/api/file/MtmhaZqQZ6XWLnKKSnGg</image>
+                            <info>President, CEO and Principal Designer, Whipsaw, Inc.</info>
+                        </speaker>
+                    </afternoon>
+         </tuesday>
         
         
         
-    </summit:designstage>
+    </designstage>
     
-    <summit:moneystage>
-        <summit:thursday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00am</summit:start>
-                            <summit:end>10:15am</summit:end>
-                        </summit:time>
+    <moneystage>
+        <thursday>
+                  <morning>
+                        <time>
+                            <start>10:00am</start>
+                            <end>10:15am</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Mother's home cooking</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Mother's home cooking</title>
+                             <description>
                                  Why does a financial services institution need a Chief Data Officer (CDO)? JP Rangaswami CDO of Deutsche Bank will illustrate how knowing data is helping financial firms respond to numerous critical and complex market and regulatory demands
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>JP Rangaswami</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513434/medium/513434?1444823631</summit:image>
-                            <summit:info>Chief Data Officer, Deutsche Bank</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>JP Rangaswami</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513434/medium/513434?1444823631</image>
+                            <info>Chief Data Officer, Deutsche Bank</info>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00</summit:start>
-                            <summit:end>12:15</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00</start>
+                            <end>12:15</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Fintech 2.0</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Fintech 2.0</title>
+                             <description>
                                Beyond the disruption we've seen in payments, lending and investments, what are the next trillion-dollar opportunities in financial services that are ripe for ambitious entrepreneurs and co-founders to exploit?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Victor Matarranz</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</summit:image>
-                            <summit:info>SVP & Head of Group Strategy, Santander</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:thursday>
+                        <speaker>
+                            <name>Victor Matarranz</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</image>
+                            <info>SVP and Head of Group Strategy, Santander</info>
+                        </speaker>
+                    </afternoon>
+         </thursday>
         
         
         
-    </summit:moneystage>
-    <summit:marketingstage>
-        <summit:tuesday>
-            <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00</summit:start>
-                            <summit:end>10:20</summit:end>
-                        </summit:time>
+    </moneystage>
+    <marketingstage>
+        <tuesday>
+            <morning>
+                        <time>
+                            <start>10:00</start>
+                            <end>10:20</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:name>Making technology influence people</summit:name>
-                             <summit:description>
+                        <talk>
+                            <name>Making technology influence people</name>
+                             <description>
                                  Modern marketers and brands have had to embrace technology in order to stay relevant. Is it always a case of 'failing better"? Or have we reached a new level of customer engagement that has changed the game in terms of brand messaging?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Jason Musante</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/521416/medium/521416?1444824511</summit:image>
-                            <summit:info>Group ECD/Managing Director at havas Worldwide</summit:info>
+                        <speaker>
+                            <name>Jason Musante</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/521416/medium/521416?1444824511</image>
+                            <info>Group ECD/Managing Director at havas Worldwide</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:05</summit:start>
-                            <summit:end>12:25</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:05</start>
+                            <end>12:25</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:name>The Real Life math man</summit:name>
-                             <summit:description>
+                        <talk>
+                            <name>The Real Life math man</name>
+                             <description>
                                  What does market research in the age of big data? The real life math man Eric Salama will illuminate in conversation with Greg Williams of Wired
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Eric Salama</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/516536/medium/516536?1444824557</summit:image>
-                            <summit:info>CEO at kantar</summit:info>
-                        </summit:speaker>
-                        <summit:speaker id="2">
-                            <summit:name>Greg Williams</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/6mhzjrXRAaLUMTrFMYOa</summit:image>
-                            <summit:info>at WIRED Magazines</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-        </summit:tuesday>
-        <summit:wenesday>
-            <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00</summit:start>
-                            <summit:end>10:20</summit:end>
-                        </summit:time>
+                        <speaker id="1">
+                            <name>Eric Salama</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/516536/medium/516536?1444824557</image>
+                            <info>CEO at kantar</info>
+                        </speaker>
+                        <speaker id="2">
+                            <name>Greg Williams</name>
+                            <image>https://www.filepicker.io/api/file/6mhzjrXRAaLUMTrFMYOa</image>
+                            <info>at WIRED Magazines</info>
+                        </speaker>
+                    </afternoon>
+        </tuesday>
+        <wenesday>
+            <morning>
+                        <time>
+                            <start>10:00</start>
+                            <end>10:20</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:name>Monetizing Social</summit:name>
-                             <summit:description>
+                        <talk>
+                            <name>Monetizing Social</name>
+                             <description>
                                  AdAs part of one of the most engaging platforms on the Internet, Tim Kendall has monetized Pinterest in new and interesting ways including by launching Buyable Pins in June. He will discuss in a little more detail the company's commerce plans.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Tim Kendall</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/515039/medium/515039?1444823333</summit:image>
-                            <summit:info>General Manager at Pintrest</summit:info>
+                        <speaker id="1">
+                            <name>Tim Kendall</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/515039/medium/515039?1444823333</image>
+                            <info>General Manager at Pintrest</info>
                             
-                        </summit:speaker>
-                        <summit:speaker id="2">
-                            <summit:name>Jonathan Weber</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/lhl41cjQiicW05wfhgxi</summit:image>
-                            <summit:info>Global Technology Editor at Reuter</summit:info>
+                        </speaker>
+                        <speaker id="2">
+                            <name>Jonathan Weber</name>
+                            <image>https://www.filepicker.io/api/file/lhl41cjQiicW05wfhgxi</image>
+                            <info>Global Technology Editor at Reuter</info>
                             
-                        </summit:speaker>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:10</summit:start>
-                            <summit:end>1:00</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:10</start>
+                            <end>1:00</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:name>Resist and trive</summit:name>
-                             <summit:description>
+                        <talk>
+                            <name>Resist and trive</name>
+                             <description>
                                  Avoiding the pressure to optimize for profit seems impossible in 2015. Yancey Strickler of Kickstarter will outline the path to independence and real value, not just valuation.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Yancey Strickler</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513290/medium/513290?1444823711</summit:image>
-                            <summit:info>Co-Founder at Kickstarter</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-        </summit:wenesday>
-         <summit:thursday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>10:00</summit:start>
-                            <summit:end>10:20</summit:end>
-                        </summit:time>
+                        <speaker>
+                            <name>Yancey Strickler</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513290/medium/513290?1444823711</image>
+                            <info>Co-Founder at Kickstarter</info>
+                        </speaker>
+                    </afternoon>
+        </wenesday>
+         <thursday>
+                  <morning>
+                        <time>
+                            <start>10:00</start>
+                            <end>10:20</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:name>Advertising state of the nation</summit:name>
-                             <summit:description>
+                        <talk>
+                             <name>Advertising state of the nation</name>
+                             <description>
                                  There are few more accomplished figures in the world of advertising than Harris Diamond. In this fireside with Jim Edwards of Business Insider, he will address the underlying issues affecting advertising in 2015....
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Andreas Goldi</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/521718/medium/521718?1444824535</summit:image>
-                            <summit:info>CTO at pixability</summit:info>
+                        <speaker id="1">
+                            <name>Andreas Goldi</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/521718/medium/521718?1444824535</image>
+                            <info>CTO at pixability</info>
                             
-                        </summit:speaker >
-                        <summit:speaker id="2">
-                            <summit:name>Sarah Wood</summit:name>
-                            <summit:image>https://s3-eu-west-1.amazonaws.com/summitid/people/58031/medium/Sarah.jpg?1415202297</summit:image>
-                            <summit:info>Co-Founder and Co-CEO at Unruly</summit:info>
+                        </speaker >
+                        <speaker id="2">
+                            <name>Sarah Wood</name>
+                            <image>https://s3-eu-west-1.amazonaws.com/summitid/people/58031/medium/Sarah.jpg?1415202297</image>
+                            <info>Co-Founder and Co-CEO at Unruly</info>
                             
-                        </summit:speaker>
-                      <summit:speaker id="3">
-                            <summit:name>Jonathan Cloonan</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/58yLXJ8QS7OkSIJhGROL</summit:image>
-                            <summit:info>Senior Director at Group M Entertainment</summit:info>
+                        </speaker>
+                      <speaker id="3">
+                            <name>Jonathan Cloonan</name>
+                            <image>https://www.filepicker.io/api/file/58yLXJ8QS7OkSIJhGROL</image>
+                            <info>Senior Director at Group M Entertainment</info>
                             
-                        </summit:speaker>
+                        </speaker>
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>11:55</summit:start>
-                            <summit:end>12:15</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>11:55</start>
+                            <end>12:15</end>
+                        </time>
                         
-                        <summit:talk>
-                            <summit:name>Video killed the TV ad</summit:name>
-                             <summit:description>
+                        <talk>
+                            <name>Video killed the TV ad</name>
+                             <description>
                                  Video is quickly taking over. The likes of YouTube and Facebook are amongst the platforms but who are the video advertising companies driving the next wave of visual advertising and what's the ultimate ambition?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Cliff Chenfeld</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/517208/medium/517208?1444823456</summit:image>
-                            <summit:info>Owner at Razor and tie</summit:info>
-                        </summit:speaker>
-                        <summit:speaker id="2">
-                            <summit:name>Dave Fanning</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/RIQrV05HTaqqYuDwXytj</summit:image>
-                            <summit:info>Broadcaster at RTE</summit:info>
-                        </summit:speaker>
-                    </summit:afternoon>
-         </summit:thursday>
-    </summit:marketingstage>
+                        <speaker id="1">
+                            <name>Cliff Chenfeld</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/517208/medium/517208?1444823456</image>
+                            <info>Owner at Razor and tie</info>
+                        </speaker>
+                        <speaker id="2">
+                            <name>Dave Fanning</name>
+                            <image>https://www.filepicker.io/api/file/RIQrV05HTaqqYuDwXytj</image>
+                            <info>Broadcaster at RTE</info>
+                        </speaker>
+                    </afternoon>
+         </thursday>
+    </marketingstage>
     
-    <summit:centrestage>
-        <summit:tuesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55</summit:start>
-                            <summit:end>10:00</summit:end>
-                        </summit:time>
+    <centrestage>
+        <tuesday>
+                  <morning>
+                        <time>
+                            <start>9:55</start>
+                            <end>10:00</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summitt</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summitt</info>
+                        </speaker>
                         
                           
                         
                         
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00pm</summit:start>
-                            <summit:end>12:25pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00pm</start>
+                            <end>12:25pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Bringing VR to the masses</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Bringing VR to the masses</title>
+                             <description>
                                 Just how mainstream will VR become? The inventor of Oculus Rift shares his vision for the future.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Palmer Luckey</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513370/medium/513370?1444823550</summit:image>
-                            <summit:info>Technology Correspondent, CNN Money</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Palmer Luckey</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513370/medium/513370?1444823550</image>
+                            <info>Technology Correspondent, CNN Money</info>
+                        </speaker>
                         
-                        <summit:speaker>
-                            <summit:name>Laurie Segall</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/D0ls8GuQS2kwF8FmlHiT</summit:image>
-                            <summit:info>Founder, Oculus VR</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Laurie Segall</name>
+                            <image>https://www.filepicker.io/api/file/D0ls8GuQS2kwF8FmlHiT</image>
+                            <info>Founder, Oculus VR</info>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:tuesday>
+         </tuesday>
          
          
-         <summit:wenesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:25am</summit:start>
-                            <summit:end>9:30am</summit:end>
-                        </summit:time>
+         <wenesday>
+                  <morning>
+                        <time>
+                            <start>9:25am</start>
+                            <end>9:30am</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks for the second day.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summit</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summit</info>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:15pm</summit:start>
-                            <summit:end>12:35pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:15pm</start>
+                            <end>12:35pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Why are there not more European unicorns?</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Why are there not more European unicorns?</title>
+                             <description>
                                  This year has seen the emergence of more European unicorns but the continent still seems to lag behind other markets. Are the conditions right in Europe? Could the dynamic between investor and company be the solution?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker id="1">
-                            <summit:name>Nicolas Brusson</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513378/medium/513378?1444823668</summit:image>
-                            <summit:info>Co-Founder, BlaBlaCar</summit:info>
-                        </summit:speaker>
+                        <speaker id="1">
+                            <name>Nicolas Brusson</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513378/medium/513378?1444823668</image>
+                            <info>Co-Founder, BlaBlaCar</info>
+                        </speaker>
                         
-                         <summit:speaker id="2">
-                            <summit:name>Philippe Botteri</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</summit:image>
-                            <summit:info>Partner, Accel Partners</summit:info>
-                        </summit:speaker>
+                         <speaker id="2">
+                            <name>Philippe Botteri</name>
+                            <image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</image>
+                            <info>Partner, Accel Partners</info>
+                        </speaker>
                         
-                         <summit:speaker id="3">
-                            <summit:name>Murad Ahmed</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</summit:image>
-                            <summit:info>European Tech Correspondent, Financial Times</summit:info>
-                        </summit:speaker>
+                         <speaker id="3">
+                            <name>Murad Ahmed</name>
+                            <image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</image>
+                            <info>European Tech Correspondent, Financial Times</info>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:wenesday>
+         </wenesday>
          
-          <summit:thursday>
+          <thursday>
          
          
-             <summit:monday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55</summit:start>
-                            <summit:end>10:00</summit:end>
-                        </summit:time>
+             
+                  <morning>
+                        <time>
+                            <start>9:55</start>
+                            <end>10:00</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summitt</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summitt</info>
+                        </speaker>
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00pm</summit:start>
-                            <summit:end>12:05pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00pm</start>
+                            <end>12:05pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Fintech 2.0</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Fintech 2.0</title>
+                             <description>
                                  Beyond the disruption we've seen in payments, lending and investments, what are the next trillion-dollar opportunities in financial services that are ripe for ambitious entrepreneurs and co-founders to exploit?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Victor Matarranz</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</summit:image>
-                            <summit:info>SVP & Head of Group Strategy, Santander</summit:info>
+                        <speaker>
+                            <name>Victor Matarranz</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</image>
+                            <info>SVP and Head of Group Strategy, Santander</info>
                             
-                        </summit:speaker>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:thursday>
+         </thursday>
        
         
-    </summit:centrestage>
+    </centrestage>
     
-    <summit:centrestage>
-        <summit:tuesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55</summit:start>
-                            <summit:end>10:00</summit:end>
-                        </summit:time>
+    <centrestage>
+        <tuesday>
+                  <morning>
+                        <time>
+                            <start>9:55</start>
+                            <end>10:00</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summitt</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summitt</info>
+                        </speaker>
                         
                           
                         
                         
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00pm</summit:start>
-                            <summit:end>12:25pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00pm</start>
+                            <end>12:25pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Bringing VR to the masses</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Bringing VR to the masses</title>
+                             <description>
                                 Just how mainstream will VR become? The inventor of Oculus Rift shares his vision for the future.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Palmer Luckey</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513370/medium/513370?1444823550</summit:image>
-                            <summit:info>Technology Correspondent, CNN Money</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Palmer Luckey</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513370/medium/513370?1444823550</image>
+                            <info>Technology Correspondent, CNN Money</info>
+                        </speaker>
                         
-                        <summit:speaker>
-                            <summit:name>Laurie Segall</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/D0ls8GuQS2kwF8FmlHiT</summit:image>
-                            <summit:info>Founder, Oculus VR</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Laurie Segall</name>
+                            <image>https://www.filepicker.io/api/file/D0ls8GuQS2kwF8FmlHiT</image>
+                            <info>Founder, Oculus VR</info>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:tuesday>
+         </tuesday>
          
          
-         <summit:wenesday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:25am</summit:start>
-                            <summit:end>9:30am</summit:end>
-                        </summit:time>
+         <wenesday>
+                  <morning>
+                        <time>
+                            <start>9:25am</start>
+                            <end>9:30am</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks for the second day.
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summit</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summit</info>
+                        </speaker>
                       
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:15pm</summit:start>
-                            <summit:end>12:35pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:15pm</start>
+                            <end>12:35pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Why are there not more European unicorns?</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Why are there not more European unicorns?</title>
+                             <description>
                                  This year has seen the emergence of more European unicorns but the continent still seems to lag behind other markets. Are the conditions right in Europe? Could the dynamic between investor and company be the solution?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Nicolas Brusson</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/513378/medium/513378?1444823668</summit:image>
-                            <summit:info>Co-Founder, BlaBlaCar</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Nicolas Brusson</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513378/medium/513378?1444823668</image>
+                            <info>Co-Founder, BlaBlaCar</info>
+                        </speaker>
                         
-                         <summit:speaker id="2">
-                            <summit:name>Philippe Botteri</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</summit:image>
-                            <summit:info>Partner, Accel Partners</summit:info>
-                        </summit:speaker>
+                         <speaker id="2">
+                            <name>Philippe Botteri</name>
+                            <image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</image>
+                            <info>Partner, Accel Partners</info>
+                        </speaker>
                         
-                         <summit:speaker id="3">
-                            <summit:name>Murad Ahmed</summit:name>
-                            <summit:image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</summit:image>
-                            <summit:info>European Tech Correspondent, Financial Times</summit:info>
-                        </summit:speaker>
+                         <speaker id="3">
+                            <name>Murad Ahmed</name>
+                            <image>https://www.filepicker.io/api/file/QTjN8PoqThqcKlpo9T9G</image>
+                            <info>European Tech Correspondent, Financial Times</info>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:wenesday>
+         </wenesday>
          
-          <summit:thursday>
+          <thursday>
          
-         
-             <summit:monday>
-                  <summit:morning>
-                        <summit:time>
-                            <summit:start>9:55</summit:start>
-                            <summit:end>10:00</summit:end>
-                        </summit:time>
+                  <morning>
+                        <time>
+                            <start>9:55</start>
+                            <end>10:00</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Centre Stage opening remarks</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Centre Stage opening remarks</title>
+                             <description>
                                  The founder of Web Summit's welcoming remarks
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Paddy Cosgrave</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</summit:image>
-                            <summit:info>CEO, Web Summitt</summit:info>
-                        </summit:speaker>
+                        <speaker>
+                            <name>Paddy Cosgrave</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
+                            <info>CEO, Web Summitt</info>
+                        </speaker>
                 
-                   </summit:morning>
+                   </morning>
           
-                   <summit:afternoon>  
-                        <summit:time>
-                            <summit:start>12:00pm</summit:start>
-                            <summit:end>12:05pm</summit:end>
-                        </summit:time>
+                   <afternoon>  
+                        <time>
+                            <start>12:00pm</start>
+                            <end>12:05pm</end>
+                        </time>
                         
-                        <summit:talk>
-                             <summit:title>Fintech 2.0</summit:title>
-                             <summit:description>
+                        <talk>
+                             <title>Fintech 2.0</title>
+                             <description>
                                  Beyond the disruption we've seen in payments, lending and investments, what are the next trillion-dollar opportunities in financial services that are ripe for ambitious entrepreneurs and co-founders to exploit?
-                             </summit:description>
-                        </summit:talk>
+                             </description>
+                        </talk>
                         
-                        <summit:speaker>
-                            <summit:name>Victor Matarranz</summit:name>
-                            <summit:image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</summit:image>
-                            <summit:info>SVP & Head of Group Strategy, Santander</summit:info>
+                        <speaker>
+                            <name>Victor Matarranz</name>
+                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526412/medium/526412?1444823407</image>
+                            <info>SVP and Head of Group Strategy, Santander</info>
                             
-                        </summit:speaker>
+                        </speaker>
            
            
-                    </summit:afternoon>
+                    </afternoon>
           
-         </summit:thursday>
+         </thursday>
        
         
-    </summit:centrestage>
+    </centrestage>
     
     
-</summit:timetable>
+</timetable>
 
 
 <!--   ****************** ATTENTION ************************
