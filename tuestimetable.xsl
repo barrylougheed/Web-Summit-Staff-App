@@ -113,7 +113,7 @@
 		    		   <div class="time">
 		    			 <span>Time</span>
 		    			
-		    			 <p> <xsl:apply-templates select="//datastage/wenesday/morning/time"/> </p>
+		    			 <p> <xsl:apply-templates select="//datastage/wenesday/morning/time/start"/> </p>
 		    		   </div>
 
 		    		   <div class="contentWrapper">
@@ -179,21 +179,22 @@
 
 </xsl:template>
 
+
 <!-- rules to apply to xml to match templates -->
 
-<xsl:template match="time">
+<xsl:template match="start">
 
-   <xsl:value-of select="/start"/>
+   <xsl:value-of select="."/>
 
 </xsl:template>
 
-<xsl:template match="*">
-	<xsl:value-of select="material[last()]"/>
-</xsl:template>
+<!--<xsl:template match="*">-->
+<!--	<xsl:value-of select="material[last()]"/>-->
+<!--</xsl:template>-->
 
-<xsl:template match="height">
-  <xsl:value-of select="/."/>
-</xsl:template>
+<!--<xsl:template match="height">-->
+<!--  <xsl:value-of select="/."/>-->
+<!--</xsl:template>-->
 
 
 </xsl:transform>
