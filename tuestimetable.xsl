@@ -45,7 +45,7 @@
 						<!--
 					<input type="button" class="btndesign" value="page1" id="home" >Home</input>
 					<input type="button" class="btndesign" value="test" id="test" ></input>-->
-				</ul>
+				   </ul>
 				</div>
 				<div id="rssfeed" >
 					<!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "https://blog.websummit.net/",rssmikle_frame_width: "300",rssmikle_frame_height: "400",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "Web Summit",rssmikle_title_link: "https://blog.websummit.net/",rssmikle_title_bgcolor: "#0051C9",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#303030",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#4A62FF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#FFFFFF",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%e.%m.%Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "crop",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:300px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code -->
@@ -117,26 +117,36 @@
 		    		   </div>
 
 		    		   <div class="contentWrapper">
-	     				 <img src= '' alt="image"><xsl:apply-templates select="//datastage/wenesday/morning/speaker/image"/> </img>
 	     				 <h1><xsl:apply-templates select="//datastage/wenesday/morning/talk/title"/></h1>
-	     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/talk/description"/> </span>
+	     				 <p><xsl:apply-templates select="//datastage/wenesday/morning/talk/description"/> </p>
+	     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+	     				 <img width="50px" height="50px" src='{//datastage/wenesday/morning/speaker/image}'></img>
+	     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker"/> </span>
+	     				  <br></br>
+	     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker/info"/> </span>
 		    			</div>
 
 		    		 </li>
 
-		    		 <li class="talkholder draggable">
-		    			
+		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		
 		    			  <div class="time">
 		    				<span>Time</span>
 		    			  
-		    			    <p> 10:30 </p>
+		    			    <p> <xsl:apply-templates select="//datastage/wenesday/afternoon/time/start"/> </p>
 		    			  </div>
 
-		    			  <div class="contentWrapper">
-	     						<span> time</span>
-		    			  </div>
+		    			<div class="contentWrapper">
+	     				 <h1><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/title"/></h1>
+	     				 <p><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/description"/> </p>
+	     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+	     				 <img width="50px" height="50px" src='{//datastage/wenesday/afternoon/speaker/image}'></img>
+	     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker"/> </span>
+	     				  <br></br>
+	     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker/info"/> </span>
+		    			</div>
 
-		    				
+		    		
 	                       
 		    		 </li>
 
@@ -180,13 +190,49 @@
 </xsl:template>
 
 
-<!-- rules to apply to xml to match templates -->
+<!-- 
+
+   * rules to apply to xml to match templates
+   
+   * These are the rules for all of the talks 
+   
+   * All that needs to be changed is the expersions
+   
+   * Also new rules can be added to display certain data, but make sure they dont conflict with already existing
+     
+
+-->
 
 <xsl:template match="start">
 
    <xsl:value-of select="."/>
 
 </xsl:template>
+
+<xsl:template match="title">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+<xsl:template match="description">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+<xsl:template match="speaker">
+
+   <xsl:value-of select="name"/>
+
+</xsl:template>
+
+<xsl:template match="info">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
 
 <!--<xsl:template match="*">-->
 <!--	<xsl:value-of select="material[last()]"/>-->
