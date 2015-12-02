@@ -31,6 +31,7 @@
 	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js"></script>
 
 	    <script src="JS/frameBehaviour.js" type="text/JavaScript"></script>
+	    <script src="JS/behaviour.js" type="text/JavaScript"></script>
 	    
 </head>
 <body>
@@ -95,80 +96,137 @@
 
 	    <div id="talkcontent">
 
-	    	<div id="daysnav">
-               <ul class="nav nav-tabs" id="daysNav">
-                 <li role="presentation" class="active"><a href="">Tuesday</a></li>
-                 <li role="presentation" class="active"><a href="">Wenesday</a></li>
+	    <div id="daysnav">
 
-                 <li role="presentation" class="active"><a href="">Friday</a></li>
+	    		
+	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnTue" class="btn btn-default">Tuesday</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnWed" class="btn btn-default">Wenesday</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnThur" class="btn btn-default">Thursday</button>
+				  </div>
+				</div>
 
-
-               </ul>
+           
 	    	</div>
 	    	
 	    	<div id="talkwrapper">
-	    	 <ul id="talktimes">
-		    		 <li class="talkholder draggable">                      
-		    			
-		    		   <div class="time">
-		    			 <span>Time</span>
-		    			
-		    			 <p> <xsl:apply-templates select="//datastage/wenesday/morning/time/start"/> </p>
+	    	 	<ul id="talktimes">
+	    	 	
+		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		   
+		    		   <div class="time hidetue">
+		    			 tuesday div
 		    		   </div>
 
-		    		   <div class="contentWrapper">
-	     				 <h1><xsl:apply-templates select="//datastage/wenesday/morning/talk/title"/></h1>
-	     				 <p><xsl:apply-templates select="//datastage/wenesday/morning/talk/description"/> </p>
-	     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-	     				 <img width="50px" height="50px" src='{//datastage/wenesday/morning/speaker/image}'></img>
-	     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker"/> </span>
-	     				  <br></br>
-	     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker/info"/> </span>
+		    		    <div class="time hidewed">
+		    		    	<span>Time</span>
+		    			
+		    			 	<p> <xsl:apply-templates select="//datastage/wenesday/morning/time/start"/> </p>
+		    		    </div>
+		    		    
+		    		     <div class="time hidethur">
+		    		    	thur div
+		    		    </div>
+
+		    		   <div class="contentWrapper hidetue">
+	     				 <span> tuesday div</span>
 		    			</div>
+
+		    			<div class="contentWrapper hidewed">
+			    			 <h1><xsl:apply-templates select="//datastage/wenesday/morning/talk/title"/></h1>
+		     				 <p><xsl:apply-templates select="//datastage/wenesday/morning/talk/description"/> </p>
+		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+		     				 <img width="50px" height="50px" src='{//datastage/wenesday/morning/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker"/> </span>
+		     				  <br></br>
+		     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker/info"/> </span>
+		    			</div>
+		    			
+		    			<div class="contentWrapper hidethur">
+		    				thur div
+		    			</div>
+		    				
+		    			
 
 		    		 </li>
 
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
-		    		
-		    			  <div class="time">
-		    				<span>Time</span>
-		    			  
-		    			    <p> <xsl:apply-templates select="//datastage/wenesday/afternoon/time/start"/> </p>
-		    			  </div>
+		    			
+		    			 
+		    		   <div class="time hidetue">
+		    			 tuesday div
+		    		   </div>
 
-		    			<div class="contentWrapper">
-	     				 <h1><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/title"/></h1>
-	     				 <p><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/description"/> </p>
-	     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-	     				 <img width="50px" height="50px" src='{//datastage/wenesday/afternoon/speaker/image}'></img>
-	     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker"/> </span>
-	     				  <br></br>
-	     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker/info"/> </span>
+		    		    <div class="time hidewed">
+		    		    	<span>Time</span>
+		    		       <p> <xsl:apply-templates select="//datastage/wenesday/afternoon/time/start"/> </p>
+		    		    </div>
+		    		    
+		    		     <div class="time hidethur">
+		    		    	thur div
+		    		    </div>
+		    		    
+		    		    
+
+		    		   <div class="contentWrapper hidetue">
+	     				 <span> tuesday div</span>
 		    			</div>
 
-		    		
-	                       
-		    		 </li>
-
-
-		    		 <li class="talkholder draggable">
+		    			<div class="contentWrapper hidewed">
+			    			 <h1><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/title"/></h1>
+		     				 <p><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/description"/> </p>
+		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+		     				 <img width="50px" height="50px" src='{//datastage/wenesday/afternoon/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker"/> </span>
+		     				  <br></br>
+		     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker/info"/> </span>
+		    			</div>
 		    			
-		    			  <div class="time">
-		    				<span>Time</span>
-		    			  
-		    			    <p> 10:30 </p>
-		    			  </div>
-
-		    			  <div class="contentWrapper">
-	     						<span> time</span>
-		    			  </div>
-
+		    			<div class="contentWrapper hidethur">
+		    				thur div
+		    			</div>
 		    				
 	                       
 		    		 </li>
 
-	    		</ul>
 
+		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    			
+		    	         <div class="time hidetue">
+		    			 tuesday div
+		    		   </div>
+
+		    		    <div class="time hidewed">
+		    		    	wed div
+		    		    </div>
+		    		    
+		    		     <div class="time hidethur">
+		    		    	thur div
+		    		    </div>
+		    		    
+		    		    
+
+		    		   <div class="contentWrapper hidetue">
+	     				 <span> tuesday div</span>
+		    			</div>
+
+		    			<div class="contentWrapper hidewed">
+		    				wed div
+		    			</div>
+		    			
+		    			<div class="contentWrapper hidethur">
+		    				thur div
+		    			</div>
+	                       
+		    		 </li>
+
+	    		</ul>
 	    	</div>
 
 
@@ -178,7 +236,10 @@
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    
+    <script type="text/javascript">
+        
+      
+    </script>
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								

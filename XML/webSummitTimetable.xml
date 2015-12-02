@@ -1042,8 +1042,307 @@
         
     </centrestage>
     
+          <sportStage>
+          <wenesday>
+                  <morning>
+                        <time>
+                            <start>10.00</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>Motivation on and off the field</title>
+                             <description>
+                                 Motivation on and off the field
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Matt Higgins</name>
+                            <image></image>
+                            <info>Co-Founder and CEO and RSE Venture</info>
+                        </speaker>
+                        
+                          <speaker id="8">
+                            <name>Curt Cronin</name>
+                            <image></image>
+                            <info>Co-Founder at Mastery Techonologies</info>
+                             </speaker>
+                             
+                             <speaker id="9">
+                            <name>Ben Smith</name>
+                            <image></image>
+                            <info>Smith</info>
+                             </speaker>
+                   </morning>
+    <afternoon>  
+                        <time>
+                            <start>12.20</start>
+                            <end></end>
+                        </time>
+                        
+                        <talk>
+                             <title>All business on and off the field</title>
+                             <description>
+                                 All business on and off the field
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Tiki Barber</name>
+                            <image></image>
+                            <info>Co-Founder and Chairman at Thuzio</info>
+                    </speaker>
+                    
+                    <speaker id="10">
+                            <name>Jaime Heaslip</name>
+                            <image></image>
+                            <info>Rugby Player at Leinster Rugby</info>
+                             </speaker>
+                             
+                             <speaker id="11">
+                            <name>Jaime Heaslip</name>
+                            <image></image>
+                            <info>Rugby Player at Leinster Rugby</info>
+                             </speaker>
+                             
+                             <speaker id="12">
+                            <name>Ger Gilroy</name>
+                            <image></image>
+                            <info>Presenter and Co - Founder at Newstalk/Balls.ie</info>
+                             </speaker>
+                    
+                    
+                    </afternoon>
+         </wenesday>
+         
+         <thursday>
+                  <morning>
+                        <time>
+                            <start>10.20</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>Social video in the sports industry</title>
+                             <description>
+                        Social video in the sports industry
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Gareth Capon</name>
+                            <image> </image>
+                            <info>CEO at Grabyo</info>
+                        </speaker>
+                        
+                          <speaker id="13">
+                            <name>Nacho Trujillo</name>
+                            <image> </image>
+                            <info>Managing Director, Innovation and Global Development at La Liga</info>
+                             </speaker>
+                             
+                             <speaker id="14">
+                            <name>Alexandra Willis</name>
+                            <image> </image>
+                            <info>Head of Digital and Content at The All England Lawn Tennis Club Limited</info>
+                             </speaker>
+                            
+                   </morning>
+    <afternoon>  
+                        <time>
+                            <start>2.40</start>
+                            <end></end>
+                        </time>
+                        
+                        <talk>
+                             <title>Touch, pause, engagement</title>
+                             <description> Touch, pause, engagement
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Alan Gilpin</name>
+                            <image></image>
+                            <info>Head of the Rugby World Cup at World Rugby</info>
+                    </speaker>
+                    
+                    <speaker id="15">
+                            <name>Ruaidhri O'Connor</name>
+                            <image> </image>
+                            <info>Rugby Correspondent at Irish Independent</info>
+                             </speaker>
+                    
+                    </afternoon>
+         </thursday>
+
+         
+          </sportStage>
+
+  <contentstage>
+          <wednesday>
+                  <morning>
+                        <time>
+                            <start>10.15</start>
+                            <end></end>
+                        </time>
+                        <talk>
+                             <title>Content Summit Opening Remarks</title>
+                             <description>
+                                 Content Summit Opening Remarks
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Aine Kerr</name>
+                            <image></image>
+                            <info>Managing Editor at Storyful</info>
+                        </speaker>
+                         
+                             
+                             
+                             
+                        <time>
+                            <start>10.20</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>Read all about it: the future of print</title>
+                             <description>
+                                Read all about it: the future of print
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Tanya Cordrey</name>
+                            <image></image>
+                            <info>Chief Digital Officer atThe Guardian</info>
+                        </speaker>
+                          <speaker id="2">
+                            <name>Will Harris</name>
+                            <image></image>
+                            <info>Head of Digital at Conde Nast Publications</info>
+                             </speaker>
+                             
+                             <speaker id="3">
+                            <name>Eric Schurenberg</name>
+                            <image></image>
+                            <info>President and Editor-in-Chief atInc.com</info>
+                             </speaker>
+                             
+                             <speaker id="4">
+                            <name>Samantha Henig</name>
+                            <image></image>
+                            <info>Digital Deputy, at The New York Times</info>
+                             </speaker>
+                  
+   
+                        <time>
+                            <start>10.40</start>
+                            <end></end>
+                        </time>
+                        
+                        <talk>
+                             <title>Tomorrow's News</title>
+                             <description> Tomorrow's News
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Andrew Morse</name>
+                            <image></image>
+                            <info> EVP and Head of Digital at CNN </info>
+                    </speaker>
+                     <speaker id="5">
+                            <name>Aine Kerr</name>
+                            <image></image>
+                            <info>Managing Editor at Storyful </info>
+                             </speaker>
+                             
+                            
+                             <time>
+                            <start>11.00</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>A new page for journalism</title>
+                             <description>
+                                A new page for journalism
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Matt McAllester</name>
+                            <image></image>
+                            <info>European Editor at Newsweek Magazine</info>
+                        </speaker>
+                          <speaker id="6">
+                            <name>Alexander Klopping</name>
+                            <image></image>
+                            <info>Founder at Blendie</info>
+                             </speaker>
+                             
+                             <speaker id="7">
+                            <name>Stephen Rae</name>
+                            <image></image>
+                            <info>Group Editor-in-Chief at Independent News and Media</info>
+                             </speaker>
+                             
+                             
+                    </morning>
+                  </wednesday>
+                  
+                  <thursday>
+                  <morning>
+                        <time>
+                            <start>9.55</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>Content Summit opening remarks </title>
+                             <description>
+                        Content Summit opening remarks
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name> Jaime Lewis</name>
+                            <image> </image>
+                            <info>Director Venture Capital Practice at KPMG </info>
+                        </speaker>
+                        
+                         <time>
+                            <start>10.35</start>
+                            <end></end>
+                        </time>
+                 <talk>
+                             <title>AR and the futre of work </title>
+                             <description>
+                      AR and the future of work
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name> Gaia Dempsey</name>
+                            <image> </image>
+                            <info>Co-Founder atDAQRI </info>
+                        </speaker>
+                         
+                         
+                   </morning>
+    <afternoon>  
+                        <time>
+                            <start>3.05</start>
+                            <end></end>
+                        </time>
+                        
+                        <talk>
+                             <title>The age of open content: planet earth belongs to the world</title>
+                             <description>
+                             </description>
+                        </talk>
+                        <speaker>
+                            <name>Scott Larson</name>
+                            <image></image>
+                            <info>CEO at Urthecast </info>
+                    </speaker>
+                    </afternoon>
+         </thursday>
+
+                  
+          </contentstage>
     
 </timetable>
+
+
 
 
 <!--   ****************** ATTENTION ************************
