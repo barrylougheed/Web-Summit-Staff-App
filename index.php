@@ -11,7 +11,7 @@ $xsltue = $xslwed = $xslthur->substituteEntities = true;*/
 $xsltue = $xslwed = $xslthur = new DOMDocument;
 $xsltue->substituteEntities = true;
 
-$xsltue->load('tuestimetable.xsl');
+$xsltue->load('datasummit.xsl');
 
 //configures proccesor to transfrom the different timetable to the page 
 $tueTimetable = new XSLTProcessor;
