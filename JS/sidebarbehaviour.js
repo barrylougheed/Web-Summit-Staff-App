@@ -27,7 +27,7 @@ $(document).ready(function(){
 		}else if(this.id == 'home'){
 			$("#homemain2").fadeOut(1000,"swing",function(){
 				//$("#homemain").removeClass("inactive").addClass("active");
-				$("#homemain").load("./test.txt");
+				$("#homemain").load("./summits.txt");
 				$("#homemain").fadeIn(1000,"linear");
 				//$("#homemain2").removeClass("active").addClass("inactive");
 			});

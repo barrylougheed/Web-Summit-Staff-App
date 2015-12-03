@@ -1,0 +1,127 @@
+<div class="collum">
+
+<div style="cursor:pointer" id="datasummit" class="vid small draggable">
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+  <div class="bottom">
+  info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center draggable">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<!--COLLUM 2 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  storage
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+        <div class="top"> 
+		text
+  </div>    
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+         <div class="top"> 
+		 text
+  </div>   
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+</div>
+
+</div>
+
+<!-- COLLUM 3 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+<div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<script> 
+    $(".vid").hover( function() {
+    $(this).toggleClass('small');
+});
+
+
+$("#fs").hover( function() {
+    $(".vid").get(0).webkitEnterFullScreen();
+    $(".vid").removeClass('small');
+});
+  
+</script>
