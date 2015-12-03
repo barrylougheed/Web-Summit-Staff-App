@@ -163,11 +163,11 @@
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    		       <p> <xsl:apply-templates select="//codestage/wenesday/afternoon/time/start"/> </p>
+		    		      
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		    	thur div
+		    		    	 <p> <xsl:apply-templates select="//codestage/thursday/afternoon/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
@@ -177,17 +177,17 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//codestage/wenesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//codestage/wenesday/afternoon/talk/description"/> </p>
-		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//codestage/wenesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//codestage/wenesday/afternoon/speaker"/> </span>
-		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//codestage/wenesday/afternoon/speaker/info"/> </span>
+			    			 
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				thur div
+		    				 <h1><xsl:apply-templates select="//codestage/thursday/afternoon/talk/title"/></h1>
+		     				 <p><xsl:apply-templates select="//codestage/thursday/afternoon/talk/description"/> </p>
+		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+		     				 <img width="50px" height="50px" src='{//codestage/thursday/afternoon/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/speaker"/> </span>
+		     				  <br></br>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       

@@ -20,11 +20,10 @@
 
 // //attach the xsl rules to the transfromer
 
-$tueTimetable->importStyleSheet($xsltue);
+// $tueTimetable->importStyleSheet($xsltue);
 
-echo $tueTimetable->transformToXML($xml);
-
-function($xmlTemp,$xslTemp){
+// echo $tueTimetable->transformToXML($xml);
+$xslTemp = $_POST['xsl'];
 
 //load the xml
 $xml = new DOMDocument;
@@ -47,11 +46,11 @@ $Procc = new XSLTProcessor;
 //attach the xsl rules to the transfromer
 // //attach the xsl rules to the transfromer
 
-$Procc->importStyleSheet($xsltue);
+$Procc->importStyleSheet($xslTemp);
 
 echo $Procc->transformToXML($xml);
 
-}
+
 
 
 
