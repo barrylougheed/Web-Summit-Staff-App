@@ -1,6 +1,6 @@
 <div class="collum">
 
-<div class="vid small draggable"  >
+<div style="cursor:pointer" id="datasummit" class="vid small draggable">
   <div class="top"> 
   text
   </div>

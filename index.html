@@ -40,6 +40,8 @@
 	// }
 </script>
 	    
+	    <script src="JS/displaySummitTalksAjax.js" type="text/JavaScript"></script>
+	    
 </head>
 <body>
 	<div class="container-fluid">
@@ -56,6 +58,7 @@
 					<input type="button" class="btndesign" value="test" id="test" ></input>-->
 				</ul>
 				</div>
+			
 				<div id="rssfeed">
 					
 				</div>
@@ -110,6 +113,70 @@
         	    $(function(){
         	        $("#homemain").load("test.txt");
         	    });
+        	    
+        	    //script not working externally using internal as test will be removed for security issues 
+ $(document).ready(function(){
+      alert('on ready working');
+      $('#datasummit').on('click',function(){
+        alert('click function working');
+
+        callTransformer('./XSL/datasummit.xsl');
+       });
+    
+ 
+     
+});
+
+
+function callTransformer(xslFile){
+	
+	   var httpObj = false;
+        
+        alert('Function being called onClick');
+     //checks to see which browser is in use 
+	    // if(window.XMLHttpRequest){
+	    //   httpObj = new XMLHttpRequest();
+	    // }else if(window.ActiveXObject){
+	    //     httpObj = new ActiveXObject('Microsoft.XMLHTTP');
+	    //  }
+	     
+	    //  httpObj.onreadystatechange = function(){
+	    //  	if(httpObj.readyState == 4 && httpObj.status == 200){
+	    //  		document.write(httpObj.r)
+	    //  	}
+	    //  }
+   
+        $.ajax({
+            
+            type:"POST",
+            url:"index.php",
+            data:({xsl:xslFile}),
+            dataType:"html",
+            success:function(data){
+                if(data.success==true){
+                    alert('data retrived from server')
+                    document.write(data);
+                }else{
+                     alert('was unable to retrive data from server')
+                }
+            },
+            
+            error:function(data){
+                alert('A problem occured sending the data');
+            }
+             
+        });
+        
+      
+        
+    
+
+    }
+    
+
+
+
+
         	</script>
 		</div>
 		<div class="main col-sm-9 inactive" id="homemain2">
