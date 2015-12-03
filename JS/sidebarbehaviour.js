@@ -35,3 +35,22 @@ $(document).ready(function(){
 		}
 	});
 });
+
+//ajax and jquery
+//some code used from http://www.w3schools.com/php/php_ajax_rss_reader.asp
+$(document).ready(function(){
+	//browser check
+	if(window.XMLHttpRequest){
+		var xmlReq = new XMLHttpRequest();
+	}else{
+		xmlReq = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlReq.onreadystatechange = function(){
+		if(xmlReq.readyState==4 && xmlReq.status==200){
+			document.getElementById("rssfeed").innerHTML=xmlReq.responseText;
+		}
+	}
+	
+	xmlReq.open("GET","../getRssNews.php", true);
+	xmlReq.send();
+	});
