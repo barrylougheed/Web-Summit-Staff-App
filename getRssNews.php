@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>rss feed</title>
+<link type="text/css" rel="stylesheet" href="CSS/rssStyle.css" />
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+</head>
+<body>
 <?php
 //some code was retrieved from http://www.w3schools.com/php/php_ajax_rss_reader.asp
  $xml = ("XML/rssfeed.xml");
