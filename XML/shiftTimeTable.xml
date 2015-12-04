@@ -2,7 +2,7 @@
 <shiftTimeTable>
 	<tuesday>
 	<timeslot id="1">
-		<time>8:00</time>
+		<time>1:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -25,7 +25,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="2">
-		<time>9:00</time>
+		<time>2:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -48,7 +48,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="3">
-		<time>10:00</time>
+		<time>3:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -71,7 +71,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="4">
-		<time>11:00</time>
+		<time>4:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -94,7 +94,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="5">
-		<time>12:00</time>
+		<time>5:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -117,7 +117,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="6">
-		<time>13:00</time>
+		<time>6:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -140,7 +140,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="7">
-		<time>14:00</time>
+		<time>7:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -163,7 +163,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="8">
-		<time>15:00</time>
+		<time>8:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -186,7 +186,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="9">
-		<time>16:00</time>
+		<time>9:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -209,7 +209,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="10">
-		<time>17:00</time>
+		<time>10:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -232,7 +232,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="11">
-		<time>18:00</time>
+		<time>11:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -255,7 +255,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="12">
-		<time>19:00</time>
+		<time>12:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -278,7 +278,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="13">
-		<time>20:00</time>
+		<time>13:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -301,7 +301,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="14">
-		<time>21:00</time>
+		<time>14:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -324,7 +324,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="15">
-		<time>22:00</time>
+		<time>15:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -347,7 +347,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="16">
-		<time>23:00</time>
+		<time>16:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -370,6 +370,167 @@
 		</staff>
 	</timeslot>
 	<timeslot id="17">
+		<time>17:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="18">
+		<time>18:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="19">
+		<time>19:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="20">
+		<time>20:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="21">
+		<time>21:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="22">
+		<time>22:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="23">
+		<time>23:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="24">
 		<time>00:00</time>
 		<staff id="1">
 			<name></name>
@@ -395,7 +556,7 @@
 	</tuesday>
 	<wednesday>
 		<timeslot id="1">
-		<time>8:00</time>
+		<time>1:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -418,7 +579,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="2">
-		<time>9:00</time>
+		<time>2:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -441,7 +602,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="3">
-		<time>10:00</time>
+		<time>3:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -464,7 +625,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="4">
-		<time>11:00</time>
+		<time>4:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -487,7 +648,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="5">
-		<time>12:00</time>
+		<time>5:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -510,7 +671,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="6">
-		<time>13:00</time>
+		<time>6:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -533,7 +694,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="7">
-		<time>14:00</time>
+		<time>7:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -556,7 +717,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="8">
-		<time>15:00</time>
+		<time>8:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -579,7 +740,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="9">
-		<time>16:00</time>
+		<time>9:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -602,7 +763,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="10">
-		<time>17:00</time>
+		<time>10:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -625,7 +786,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="11">
-		<time>18:00</time>
+		<time>11:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -648,7 +809,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="12">
-		<time>19:00</time>
+		<time>12:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -671,7 +832,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="13">
-		<time>20:00</time>
+		<time>13:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -694,7 +855,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="14">
-		<time>21:00</time>
+		<time>14:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -717,7 +878,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="15">
-		<time>22:00</time>
+		<time>15:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -740,7 +901,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="16">
-		<time>23:00</time>
+		<time>16:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -763,6 +924,167 @@
 		</staff>
 	</timeslot>
 	<timeslot id="17">
+		<time>17:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="18">
+		<time>18:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="19">
+		<time>19:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="20">
+		<time>20:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="21">
+		<time>21:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="22">
+		<time>22:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="23">
+		<time>23:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="24">
 		<time>00:00</time>
 		<staff id="1">
 			<name></name>
@@ -788,7 +1110,7 @@
 	</wednesday>
 	<thursday>
 		<timeslot id="1">
-		<time>8:00</time>
+		<time>1:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -811,7 +1133,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="2">
-		<time>9:00</time>
+		<time>2:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -834,7 +1156,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="3">
-		<time>10:00</time>
+		<time>3:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -857,7 +1179,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="4">
-		<time>11:00</time>
+		<time>4:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -880,7 +1202,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="5">
-		<time>12:00</time>
+		<time>5:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -903,7 +1225,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="6">
-		<time>13:00</time>
+		<time>6:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -926,7 +1248,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="7">
-		<time>14:00</time>
+		<time>7:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -949,7 +1271,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="8">
-		<time>15:00</time>
+		<time>8:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -972,7 +1294,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="9">
-		<time>16:00</time>
+		<time>9:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -995,7 +1317,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="10">
-		<time>17:00</time>
+		<time>10:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1018,7 +1340,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="11">
-		<time>18:00</time>
+		<time>11:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1041,7 +1363,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="12">
-		<time>19:00</time>
+		<time>12:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1064,7 +1386,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="13">
-		<time>20:00</time>
+		<time>13:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1087,7 +1409,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="14">
-		<time>21:00</time>
+		<time>14:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1110,7 +1432,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="15">
-		<time>22:00</time>
+		<time>15:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1133,7 +1455,7 @@
 		</staff>
 	</timeslot>
 	<timeslot id="16">
-		<time>23:00</time>
+		<time>16:00</time>
 		<staff id="1">
 			<name></name>
 			<staffID></staffID>
@@ -1156,6 +1478,167 @@
 		</staff>
 	</timeslot>
 	<timeslot id="17">
+		<time>17:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="18">
+		<time>18:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="19">
+		<time>19:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="20">
+		<time>20:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="21">
+		<time>21:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="22">
+		<time>22:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="23">
+		<time>23:00</time>
+		<staff id="1">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="2">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="3">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+		<staff id="4">
+			<name></name>
+			<staffID></staffID>
+			<staffRole></staffRole>
+		</staff>
+	</timeslot>
+	<timeslot id="24">
 		<time>00:00</time>
 		<staff id="1">
 			<name></name>
