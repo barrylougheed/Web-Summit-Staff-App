@@ -1,119 +1,199 @@
-<div id="centermain">
-								<div class="collum"> 
 
-									<div class="item draggable"> 
-										drag
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank"> text </a>
-										</div>
-										<div class="content">
-											<img src="">
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top draggable"> 
-											<a href="https://www.google.ie" target="_blank"> text </a> 
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank"> text </a>
-										</div>
-										<div class="content">
-										<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-								</div><!--collum1end-->
-								<!--Collum2-->
-								<div class="collum"> 
-							
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-												<div class="fontplaceholder">
-													<p>text</p>
-												</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a> 
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" > 
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-								</div><!--Collum2end-->
-								
-								<!--Collum3-->
-								<div class="collum"> 
-							
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-									<div class="item">
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text</a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p> 
-											</div>
-										</div>
-									</div>
-								</div> <!--Collum3end-->
-		</div>
+<div class="collum">
+
+<div style="cursor:pointer" id="datasummit" onclick="testbtn()" class="vid small draggable">
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+  <div class="bottom">
+  info
+  </div>
+  </div>
+
+<div id="codesummit" class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center draggable">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<!--COLLUM 2 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  storage
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+        <div class="top"> 
+		text
+  </div>    
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+         <div class="top"> 
+		 text
+  </div>   
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+</div>
+
+</div>
+
+<!-- COLLUM 3 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+<div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<script type="text/javascript" >
+
+
+   	function testbtn(){
+             $('#datasummit').on('click',function(){
+                   alert('on click working');   
+                   //callTransformer("datasummit.xsl");
+                    callTransformer('XSL/codesummit.xsl');
+                 });
+                 
+         }
+         
+   function callTransformer(url){
+          
+       console.log(url);
+    /* working ...... */
+       
+          
+// 	  var httpObj = false;
+        
+//      alert('Function being called onClick');
+//      //checks to see which browser is in use 
+// 	   if(window.XMLHttpRequest){
+// 	       httpObj = new XMLHttpRequest();
+// 	  }else if(window.ActiveXObject){
+// 	       httpObj = new ActiveXObject('Microsoft.XMLHTTP');
+// 	   }
+// 	   alert(xslFile);
+	 
+	  
+	  
+// 	   httpObj.onreadystatechange = function(){
+// 	   	if(httpObj.readyState == 4 && httpObj.status == 200){
+// 	   		  console.log(httpObj.responseText);
+// 	  	      $('#homemain').load('xsltransformer.php');
+// 	       	}
+// 	      }
+	         
+// 	      httpObj.open('POST','xsltransformer.php?xslTemp=' + url,true); 
+// 	      httpObj.send();
+	        
+//   // //   }
+      
+
+    
+//  }
+ 
+
+    
+
+    
+       
+       
+      
+        $.ajax({
+            
+            type:"GET",
+            url:"xsltransformer.php",
+            data: {'url': url},
+            
+            success:function(data){
+            	console.log(data);
+                  document.getElementById('homemain').innerHTML = data;
+                //	$('#homemain').load(data);
+                // if(data.success==true){
+                //     alert('data retrived from server')
+                //     document.write(data);
+                // }else{
+                //      alert('was unable to retrive data from server')
+                // }
+            },
+            
+            error:function(data){
+                alert('A problem occured sending the data');
+            }
+             
+        }); 
+        
+      
+        
+      }
+  
+</script>

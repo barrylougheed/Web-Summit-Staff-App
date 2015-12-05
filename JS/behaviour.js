@@ -3,7 +3,7 @@
            setTimeout(function(){
            		$('#btnTue').trigger('click');
            },10);
-          
+ });   
 
             $('#btnTue').click(function(){
               $('.hidewed').hide();
@@ -28,8 +28,8 @@
 
             
 
-        });
+      
 
 
 
-    
+ 

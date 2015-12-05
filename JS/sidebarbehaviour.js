@@ -34,6 +34,7 @@ $(document).ready(function(){
 			//$("#homemain").fadeIn("slow");
 		}
 	});
+	  
 });
 
 //ajax and jquery

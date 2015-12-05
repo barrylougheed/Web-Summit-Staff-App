@@ -1,6 +1,6 @@
 <div class="collum">
 
-<div style="cursor:pointer" id="datasummit" class="vid small draggable">
+<div style="cursor:pointer" onclick="callTransformer('transformer/datapage.php');" class="vid small draggable">
   <div class="top"> 
   text
   </div>
@@ -10,11 +10,13 @@
   info
   </div>
   </div>
+  
+  
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick ="callTransformer('transformer/codepage.php');"  class="vid small draggable"  >
             <div class="top"> 
 			text
-  </div>
+			</div>
   <div class="center">
 </div>
 <div class="bottom">
@@ -22,7 +24,7 @@ info
   </div>
 </div>
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick="callTransformer('transformer/centerStage.php');"  class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
@@ -36,7 +38,7 @@ info
 </div>
 
 <!--COLLUM 2 -->
-<div class="collum">
+<div style="cursor:pointer" onclick="callTransformer('transformer/contentStage.php');" class="collum">
 
 <div class="vid small draggable"  >
   <div class="top"> 
@@ -49,7 +51,7 @@ info
   </div>
   </div>
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick="callTransformer('transformer/designpage.php');"   class="vid small draggable"  >
         <div class="top"> 
 		text
   </div>    
@@ -60,7 +62,7 @@ info
   </div>
 </div>
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick="callTransformer('transformer/healthtechpage.php');" class="vid small draggable"  >
          <div class="top"> 
 		 text
   </div>   
@@ -77,7 +79,7 @@ info
 <!-- COLLUM 3 -->
 <div class="collum">
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick="callTransformer('transformer/machinepage.php');" class="vid small draggable"  >
   <div class="top"> 
   text
   </div>
@@ -89,7 +91,7 @@ info
   
   </div>
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer"  onclick="callTransformer('transformer/marketingpage.php');" class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
@@ -100,11 +102,22 @@ info
   </div>
 </div>
 
-<div class="vid small draggable"  >
+<div  style="cursor:pointer" onclick="callTransformer('transformer/musicpage.php');" class="vid small draggable"  >
             <div class="top"> 
 			text
   </div>
   <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div  style="cursor:pointer"  onclick="callTransformer('transformer/sportstage.php');" class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+<div class="center">
 </div>
 <div class="bottom">
 info
@@ -123,5 +136,8 @@ $("#fs").hover( function() {
     $(".vid").get(0).webkitEnterFullScreen();
     $(".vid").removeClass('small');
 });
+ 
+ 
   
-</script>
+  
+  </script>
