@@ -1,4 +1,40 @@
-<div id="talkwrapper">
+<?xml version="1.0"?>
+<!-- Namespace -->
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="*">
+	<xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="text()">
+	<xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="/">
+    
+
+	    <div id="talkcontent">
+
+	    <div id="daysnav">
+
+	    		
+	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnTue" class="btn btn-default">Tuesday</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnWed" class="btn btn-default">Wenesday</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" id="btnThur" class="btn btn-default">Thursday</button>
+				  </div>
+				</div>
+
+           
+	    	</div>
+	    	
+	    	<div id="talkwrapper">
 	    	 	<ul id="talktimes">
 	    	 	
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
@@ -125,3 +161,77 @@
 
 
 	    </div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+        
+      
+    </script>
+
+    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+								
+
+   
+
+
+</xsl:template>
+
+
+<!-- 
+
+   * rules to apply to xml to match templates
+   
+   * These are the rules for all of the talks 
+   
+   * All that needs to be changed is the expersions
+   
+   * Also new rules can be added to display certain data, but make sure they dont conflict with already existing
+     
+
+-->
+
+<xsl:template match="start">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+<xsl:template match="title">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+<xsl:template match="description">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+<xsl:template match="speaker">
+
+   <xsl:value-of select="name"/>
+
+</xsl:template>
+
+<xsl:template match="info">
+
+   <xsl:value-of select="."/>
+
+</xsl:template>
+
+
+<!--<xsl:template match="*">-->
+<!--	<xsl:value-of select="material[last()]"/>-->
+<!--</xsl:template>-->
+
+<!--<xsl:template match="height">-->
+<!--  <xsl:value-of select="/."/>-->
+<!--</xsl:template>-->
+
+
+</xsl:transform>
+
+

@@ -17,7 +17,7 @@ $xsltue = $xslwed = $xslthur->substituteEntities = true;*/
 $xsl= new DOMDocument;
 $xsl->substituteEntities = true;
 
-$xsl->load('../XSL/mmachinesummit.xsl');
+$xsl->load('../XSL/machinesummit.xsl');
 
 //configures proccesor to transfrom the different timetable to the page 
 $Procc = new XSLTProcessor;
