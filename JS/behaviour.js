@@ -1,19 +1,21 @@
  $(document).ready(function(){
-          alert('working');
+        /*  alert('working');
            setTimeout(function(){
            		$('#btnTue').trigger('click');
-           },10);
+           },10); */
  
     
 
-            
+              $('.hidewed').addClass('hide');
+              $('.hidethur').addClass('hide');
+              //$('.hidetue').addClass('hide');
 
-      
+ });
 
     
 
 
- });  
+
  
  function testbtn(){
      

@@ -7,7 +7,7 @@ $xslTemp = $_POST['url'];
 <?php
 //load the xml
 $xml = new DOMDocument;
-$xml->load('.../XML/webSummitTimetable.xml');
+$xml->load('../XML/webSummitTimetable.xml');
 
 //load the xsl 
 

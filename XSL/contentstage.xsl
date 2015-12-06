@@ -47,35 +47,35 @@
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    			 	<p> <xsl:apply-templates select="//contentstage/wenesday/morning/time/start"/> </p>
+		    			 	<p> <xsl:apply-templates select="//contentstage/wednesday/morning/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		      <p> <xsl:apply-templates select="//contentstage/thursday/morning/time/start"/> </p>
+		    		      <p> <xsl:apply-templates select="//contentstage/thursday/morning/talk/time/start"/> </p>
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
 	     				 
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//contentstage/wenesday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/wenesday/morning/talk/description"/> </p>
+		    			<div class="contentWrapper hidewed hide">
+			    			 <h1><xsl:apply-templates select="//contentstage/wednesday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//contentstage/wednesday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//contentstage/wenesday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//contentstage/wenesday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//contentstage/wednesday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//contentstage/wednesday/morning/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//contentstage/wenesday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//contentstage/wednesday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//contentstage/thursday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/thursday/morning/talk/description"/> </p>
+		    			<div class="contentWrapper hidethur hide">
+		    				 <h1><xsl:apply-templates select="//contentstage/thursday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//contentstage/thursday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//contentstage/thursday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//contentstage/thursday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//contentstage/thursday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//contentstage/thursday/morning/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//contentstage/thursday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//contentstage/thursday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 		    			
@@ -91,7 +91,7 @@
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    		       <p> <xsl:apply-templates select="//contentstage/wenesday/afternoon/time/start"/> </p>
+		    		       <p> <xsl:apply-templates select="//contentstage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -105,23 +105,23 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    					 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/description"/> </p>
+		    					 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       
@@ -168,10 +168,23 @@
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript">
+   
+        <script type="text/javascript">
         
-      
+    		 $(document).ready(function(){
+        		  alert('trigger working');
+        		  setTimeout(function(){
+           		$('#btnTue').trigger('click');
+           },10);
+          
+
+           
+            
+
+        });
+
     </script>
+   
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								

@@ -13,70 +13,70 @@
 <xsl:template match="/">
     
 
-	    <div id="talkcontent">
+	  <div id="talkcontent">
 
 	    <div id="daysnav">
 
 	    		
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
-				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group btn-group-justified" role="group" aria-label="">
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">Wenesday</button>
+				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">wednesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
-	    	
+	    	</div>
 	    	<div id="talkwrapper">
 	    	 	<ul id="talktimes">
 	    	 	
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
-		    			 <p> <xsl:apply-templates select="//machinestage/tuesday/morning/time/start"/> </p>
+		    			 <p> <xsl:apply-templates select="//machinestage/tuesday/morning/talk/time/start"/> </p>
 		    		   </div>
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    			 	<p> <xsl:apply-templates select="//machinestage/wenesday/morning/time/start"/> </p>
+		    			 	<p> <xsl:apply-templates select="//machinestage/wednesday/morning/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		      <p> <xsl:apply-templates select="//machinestage/thursday/morning/time/start"/> </p>
+		    		      <p> <xsl:apply-templates select="//machinestage/thursday/morning/time/talk/start"/> </p>
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <h1><xsl:apply-templates select="//machinestage/tuesday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//machinestage/tuesday/morning/talk/description"/> </p>
+	     				 <h1><xsl:apply-templates select="//machinestage/tuesday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//machinestage/tuesday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//machinestage/tuesday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//machinestage/tuesday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//machinestage/tuesday/morning/talk/details/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//machinestage/tuesday/morning/talk/details/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//machinestage/tuesday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//machinestage/tuesday/morning/talk/details/speaker/info"/> </span>
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//machinestage/wenesday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//machinestage/wenesday/morning/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//machinestage/wednesday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//machinestage/wednesday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//machinestage/wenesday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//machinestage/wenesday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//machinestage/wednesday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//machinestage/wednesday/morning/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//machinestage/wenesday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//machinestage/wednesday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//machinestage/thursday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//machinestage/thursday/morning/talk/description"/> </p>
+		    				 <h1><xsl:apply-templates select="//machinestage/thursday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//machinestage/thursday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//machinestage/thursday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//machinestage/thursday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//machinestage/thursday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//machinestage/thursday/morning/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//machinestage/thursday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//machinestage/thursday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 		    			
@@ -92,7 +92,7 @@
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    		       <p> <xsl:apply-templates select="//machinestage/wenesday/afternoon/time/start"/> </p>
+		    		       <p> <xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -106,13 +106,13 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//machinestage/wenesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//machinestage/wenesday/afternoon/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//machinestage/wenesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//machinestage/wenesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//machinestage/wednesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//machinestage/wenesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">

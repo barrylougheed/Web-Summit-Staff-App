@@ -20,12 +20,12 @@
 
 	    		
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
-					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">Wenesday</button>
+				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">wednesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
@@ -46,7 +46,7 @@
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
 		    			
-		    			 	<p> <xsl:apply-templates select="//datastage/wenesday/morning/time/start"/> </p>
+		    			 	<p> <xsl:apply-templates select="//datastage/wednesday/morning/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -58,13 +58,13 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//datastage/wenesday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//datastage/wenesday/morning/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//datastage/wenesday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//datastage/wednesday/morning//talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//datastage/wednesday/morning//talk/speaker/name"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//datastage/wenesday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//datastage/wednesday/morning//talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
@@ -84,7 +84,7 @@
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    		       <p> <xsl:apply-templates select="//datastage/wenesday/afternoon/time/start"/> </p>
+		    		       <p> <xsl:apply-templates select="//datastage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -98,13 +98,13 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//datastage/wenesday/afternoon/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//datastage/wenesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//datastage/wednesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//datastage/wenesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
@@ -171,7 +171,7 @@
 
     </script>
     
-    <script src="JS/displaySummitTalksAjax" type="text/javascript"></script>
+    
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								

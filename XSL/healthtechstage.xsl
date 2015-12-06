@@ -24,7 +24,7 @@
 				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">Wenesday</button>
+				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">wednesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
@@ -62,13 +62,13 @@
 			    			
 		    			</div>
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/description"/> </p>
+		    				 <h1><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//healthtechstage/thursday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//healthtechstage/thursday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 		    			
@@ -88,7 +88,7 @@
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		       <p> <xsl:apply-templates select="//healthtechstage/wenesday/afternoon/time/start"/> </p>
+		    		       <p> <xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
@@ -102,13 +102,13 @@
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//healthtechstage/wenesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//healthtechstage/wenesday/afternoon/talk/description"/> </p>
+		    				 <h1><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//healthtechstage/wenesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//healthtechstage/wenesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//healthtechstage/wednesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//healthtechstage/wenesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       

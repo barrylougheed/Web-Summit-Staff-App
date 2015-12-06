@@ -122,7 +122,7 @@
         	    });
         	    
      
-
+    
         	
         	</script>
 		</div>
@@ -136,9 +136,31 @@
  <script type="text/javascript">
 
 //      //   callTransformer('XSL/datasummit.xsl');
+$(document).ajaxComplete(function(){
+    // fire when any Ajax requests complete
+     setTimeout(function(){
+           		$('#btnTue').trigger('click');
+           },10);
+})
     
   $(document).ready(function(){
 		
+		
+         
+           setTimeout(function(){
+           		$('#btnTue').trigger('click');
+           },10);
+ 
+    
+
+            
+
+      
+
+    
+
+
+       
          alert('working');
          
          
@@ -192,10 +214,10 @@
 	   
 	  httpObj.onreadystatechange = function(){
 	   	if(httpObj.readyState == 4 && httpObj.status == 200){
-	  	      document.getElementById('homemain').innerHTML = httpObj.responseText;
+	  	      //document.getElementById('homemain').innerHTML = httpObj.responseText;
 	  	       console.log(url);
 	  	               
-	  	      // $('#homemain').load(url);
+	  	       $('#homemain').load(url);
 	         } 	       
 	  	
 	  }

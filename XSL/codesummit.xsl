@@ -50,7 +50,7 @@
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		      <p> <xsl:apply-templates select="//codestage/thursday/morning/time/start"/> </p>
+		    		      <p> <xsl:apply-templates select="//codestage/thursday/morning/talk/time/start"/> </p>
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
@@ -61,13 +61,13 @@
 			    			
 		    			</div>
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//codestage/thursday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//codestage/thursday/morning/talk/description"/> </p>
+		    				 <h1><xsl:apply-templates select="//codestage/thursday/morning/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//codestage/thursday/morning/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//codestage/thursday/morning/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//codestage/thursday/morning/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//codestage/thursday/morning/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/morning/talk/speaker/name"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//codestage/thursday/morning/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/morning/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 		    			
@@ -87,7 +87,7 @@
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		    	 <p> <xsl:apply-templates select="//codestage/thursday/afternoon/time/start"/> </p>
+		    		    	 <p> <xsl:apply-templates select="//codestage/thursday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
@@ -101,13 +101,13 @@
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//codestage/thursday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//codestage/thursday/afternoon/talk/description"/> </p>
+		    				 <h1><xsl:apply-templates select="//codestage/thursday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//codestage/thursday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//codestage/thursday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//codestage/thursday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//codestage/thursday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       
@@ -154,11 +154,7 @@
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript">
-        
-      
-    </script>
-
+   
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								
 
