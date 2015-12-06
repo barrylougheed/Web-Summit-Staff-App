@@ -135,21 +135,19 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
  <script type="text/javascript">
 
-//      //   callTransformer('XSL/datasummit.xsl');
-$(document).ajaxComplete(function(){
-    // fire when any Ajax requests complete
-     setTimeout(function(){
+    function triggerClick(){
+        		  alert('trigger working');
+        		  setTimeout(function(){
            		$('#btnTue').trigger('click');
-           },10);
-})
+           	},10);
+           	
+           	}
     
   $(document).ready(function(){
 		
 		
          
-           setTimeout(function(){
-           		$('#btnTue').trigger('click');
-           },10);
+           
  
     
 
@@ -214,10 +212,10 @@ $(document).ajaxComplete(function(){
 	   
 	  httpObj.onreadystatechange = function(){
 	   	if(httpObj.readyState == 4 && httpObj.status == 200){
-	  	      //document.getElementById('homemain').innerHTML = httpObj.responseText;
+	  	      document.getElementById('homemain').innerHTML = httpObj.responseText;
 	  	       console.log(url);
 	  	               
-	  	       $('#homemain').load(url);
+	  	      // $('#homemain').load(url);
 	         } 	       
 	  	
 	  }
@@ -226,7 +224,7 @@ $(document).ajaxComplete(function(){
 	       httpObj.send();
 
   
-   
+  
 
  }
      </script>

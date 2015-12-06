@@ -13,15 +13,13 @@
 <xsl:template match="/">
    
      
-
-
 	    <div id="talkcontent">
 
 	      <div id="daysnav">
 
 	    		
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
-				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group btn-group-justified" role="group" aria-label="..." onload="triggerClick();">
 				  <div class="btn-group" role="group">
 				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
@@ -169,21 +167,7 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
-        <script type="text/javascript">
-        
-    		 $(document).ready(function(){
-        		  alert('trigger working');
-        		  setTimeout(function(){
-           		$('#btnTue').trigger('click');
-           },10);
-          
-
-           
-            
-
-        });
-
-    </script>
+      
    
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>

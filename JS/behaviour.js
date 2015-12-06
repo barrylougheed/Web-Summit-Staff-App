@@ -9,6 +9,14 @@
               $('.hidewed').addClass('hide');
               $('.hidethur').addClass('hide');
               //$('.hidetue').addClass('hide');
+              
+            function triggerClick(){
+        		  alert('trigger working');
+        		  setTimeout(function(){
+           		$('#btnTue').trigger('click');
+           	},10);
+           	
+         }
 
  });
 
@@ -43,3 +51,5 @@
             });
             
  }
+ 
+ 

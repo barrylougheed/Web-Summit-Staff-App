@@ -115,23 +115,23 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/description"/> </p>
+			    			 <h1><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//marketingstage/tuesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//marketingstage/tuesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    					 <h1><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/description"/> </p>
+		    					 <h1><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//marketingstage/tuesday/afternoon/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//marketingstage/tuesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       
