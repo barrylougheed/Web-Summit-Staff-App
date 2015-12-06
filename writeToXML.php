@@ -12,7 +12,7 @@ $shiftEnd = $_POST['shiftEnd'];
 				if($jobRole){
 					if($shiftStart){
 						if($shiftEnd){
-						//need to do more research but this if statement should work		
+						//need to do more research bbut this if statement should work 	
 						
 								
 					}else{
