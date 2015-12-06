@@ -59,7 +59,7 @@
 
 		    			<div class="contentWrapper hidewed">
 			    			
-		    			
+		    			</div>
 		    			<div class="contentWrapper hidethur">
 		    				 <h1><xsl:apply-templates select="//codestage/thursday/morning/talk/title"/></h1>
 		     				 <p><xsl:apply-templates select="//codestage/thursday/morning/talk/description"/> </p>
@@ -149,7 +149,7 @@
 
 
 	    </div>
-	</div>
+	
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 

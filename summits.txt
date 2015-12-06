@@ -1,128 +1,132 @@
 <div class="collum">
 
-<div style="cursor:pointer" onclick="callTransformer('transformer/datapage.php');" class="vid small draggable">
-  <div class="top"> 
-  text
-  </div>
-  <div class="center">
-</div>
-  <div class="bottom">
-  info
-  </div>
-  </div>
+	<div style="cursor:pointer" onclick="callTransformer('transformer/datapage.php');" class="vid small draggable">
+		  <div class="top"> 
+		 	 text
+		  </div>
+		  <div class="center">
+		  </div>
+		  <div class="bottom">
+		  
+		  </div>
+	</div>
   
   
 
-<div  style="cursor:pointer" onclick ="callTransformer('transformer/codepage.php');"  class="vid small draggable"  >
-            <div class="top"> 
-			text
-			</div>
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
+	<div  style="cursor:pointer" onclick ="callTransformer('transformer/codepage.php');"  class="vid small draggable"  >
+	            <div class="top"> 
+					text
+			   </div>
+			   <div class="center">
+		     	</div>
+				<div class="bottom">
+					info
+				 </div>
+	</div>
+	
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/centerStage.php');"  class="vid small draggable"  >
+	            <div class="top"> 
+				text
+				  </div>
+				  <div class="center draggable">
+				</div>
+				<div class="bottom">
+				info
+				  </div>
+	</div>
+	
 </div>
 
-<div  style="cursor:pointer" onclick="callTransformer('transformer/centerStage.php');"  class="vid small draggable"  >
-            <div class="top"> 
-			text
-  </div>
-  <div class="center draggable">
-</div>
-<div class="bottom">
-info
-  </div>
-</div>
 
-</div>
 
 <!--COLLUM 2 -->
-<div style="cursor:pointer" onclick="callTransformer('transformer/contentStage.php');" class="collum">
+<div  class="collum">
 
-<div class="vid small draggable"  >
-  <div class="top"> 
-  storage
-  </div>
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-  </div>
-
-<div  style="cursor:pointer" onclick="callTransformer('transformer/designpage.php');"   class="vid small draggable"  >
-        <div class="top"> 
-		text
-  </div>    
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-</div>
-
-<div  style="cursor:pointer" onclick="callTransformer('transformer/healthtechpage.php');" class="vid small draggable"  >
-         <div class="top"> 
-		 text
-  </div>   
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
+	<div style="cursor:pointer" onclick="callTransformer('transformer/contentStage.php');" class="vid small draggable"  >
+		  <div class="top"> 
+		  storage
+		  </div>
+		  <div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+	 </div>
   
-</div>
+
+
+	<div style="cursor:pointer" onclick="callTransformer('transformer/designStage.php');"   class="vid small draggable"  >
+			   <div class="top"> 
+					text
+			  </div>    
+			  <div class="center">
+			</div>
+			<div class="bottom">
+			info
+			  </div>
+	</div>
+
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/healthtechpage.php');" class="vid small draggable"  >
+	         <div class="top"> 
+			 text
+			  </div>   
+			  <div class="center">
+			</div>
+			<div class="bottom">
+			info
+			  </div>
+	  
+	</div>
 
 </div>
 
 <!-- COLLUM 3 -->
 <div class="collum">
 
-<div  style="cursor:pointer" onclick="callTransformer('transformer/machinepage.php');" class="vid small draggable"  >
-  <div class="top"> 
-  text
-  </div>
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-  
-  </div>
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/machinepage.php');" class="vid small draggable"  >
+		  <div class="top"> 
+		  text
+		  </div>
+		  <div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+		  
+	  </div>
 
-<div  style="cursor:pointer"  onclick="callTransformer('transformer/marketingpage.php');" class="vid small draggable"  >
-            <div class="top"> 
-			text
-  </div>
-<div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-</div>
+	<div  style="cursor:pointer"  onclick="callTransformer('transformer/marketingpage.php');" class="vid small draggable"  >
+		   <div class="top"> 
+					text
+		  </div>
+		<div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+	</div>
 
-<div  style="cursor:pointer" onclick="callTransformer('transformer/musicpage.php');" class="vid small draggable"  >
-            <div class="top"> 
-			text
-  </div>
-  <div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-</div>
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/musicpage.php');" class="vid small draggable"  >
+		            <div class="top"> 
+					text
+		  </div>
+		  <div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+	</div>
 
-<div  style="cursor:pointer"  onclick="callTransformer('transformer/sportstage.php');" class="vid small draggable"  >
-            <div class="top"> 
-			text
-  </div>
-<div class="center">
-</div>
-<div class="bottom">
-info
-  </div>
-</div>
+	<div  style="cursor:pointer"  onclick="callTransformer('transformer/sportpage.php');" class="vid small draggable"  >
+	            <div class="top"> 
+				text
+	  </div>
+	<div class="center">
+	</div>
+	<div class="bottom">
+	info
+	  </div>
+	</div>
 
 </div>
 

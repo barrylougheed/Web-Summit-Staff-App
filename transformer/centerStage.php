@@ -16,7 +16,7 @@ $xml->load('../XML/webSummitTimetable.xml');
 $xsl= new DOMDocument;
 $xsl->substituteEntities = true;
 
-$xsl->load("../XSL/centerStage.xsl");
+$xsl->load("../XSL/centrestage.xsl");
 
 //configures proccesor to transfrom the different timetable to the page 
 $Procc = new XSLTProcessor;

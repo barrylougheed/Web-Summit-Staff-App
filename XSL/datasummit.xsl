@@ -20,18 +20,17 @@
 
 	    		
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
-				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnTue" onclick="btnNav();" class="btn btn-default">Tuesday</button>
+				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed"  onclick="btnNav();" class="btn btn-default">Wenesday</button>
+				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">Wenesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnThur" onclick="btnNav();" class="btn btn-default">Thursday</button>
+				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
-
            
 	    	</div>
 	    	

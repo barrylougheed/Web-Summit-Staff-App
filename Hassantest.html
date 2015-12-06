@@ -1,160 +1,147 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
-<head>
-<title>Web summit Staff App</title>
-<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+<div class="collum">
 
-<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
+	<div style="cursor:pointer" onclick="callTransformer('transformer/datapage.php');" class="vid small draggable">
+		  <div class="top"> 
+		 	 text
+		  </div>
+		  <div class="center">
+		  </div>
+		  <div class="bottom">
+		  
+		  </div>
+	</div>
+  
+  
 
-     <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
-     <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-
-</head>
-<body>
-
+	<div  style="cursor:pointer" onclick ="callTransformer('transformer/codepage.php');"  class="vid small draggable"  >
+	            <div class="top"> 
+					text
+			   </div>
+			   <div class="center">
+		     	</div>
+				<div class="bottom">
+					info
+				 </div>
+	</div>
 	
-							<div id="centermain">
-								<div class="collum"> 
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/centerStage.php');"  class="vid small draggable"  >
+	            <div class="top"> 
+				text
+				  </div>
+				  <div class="center draggable">
+				</div>
+				<div class="bottom">
+				info
+				  </div>
+	</div>
+	
+</div>
 
-									<div class="item draggable"> 
-										drag
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank"> text </a>
-										</div>
-										<div class="content">
-											<img src="">
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top draggable"> 
-											<a href="https://www.google.ie" target="_blank"> text </a> 
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank"> text </a>
-										</div>
-										<div class="content">
-										<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-								</div><!--collum1end-->
-								<!--Collum2-->
-								<div class="collum"> 
-							
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-												<div class="fontplaceholder">
-													<p>text</p>
-												</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a> 
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" > 
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-								</div><!--Collum2end-->
-								
-								<!--Collum3-->
-								<div class="collum"> 
-							
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-							 
-									<div class="item"> 
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text </a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p>
-											</div>
-										</div>
-									</div>
-									<div class="item">
-										<div class="top"> 
-											<a href="https://www.google.ie" target="_blank" > text</a>
-										</div>
-										<div class="content">
-											<img src="" height="50px;" width="90%" >
-											<div class="fontplaceholder">
-												<p>text</p> 
-											</div>
-										</div>
-									</div>
-								</div> <!--Collum3end-->
+
+
+<!--COLLUM 2 -->
+<div  class="collum">
+
+	<div style="cursor:pointer" onclick="callTransformer('transformer/contentStage.php');" class="vid small draggable"  >
+		  <div class="top"> 
+		  storage
+		  </div>
+		  <div class="center">
 		</div>
-	
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script type="text/javascript">
-     	 $(document).ready(function(){     
+		<div class="bottom">
+		info
+		  </div>
+	 </div>
+  
 
-    	  $('.dropdown').hover(function(){
-                  $('ul #dropdownNav').slideDown('medium');
-      		},function(){
-                 $('ul',this).slideUp(1000);
-      		});
 
-    	  $('.draggable').click(function(){
-                 $('.draggable').draggable();
-    	  });
+	<div style="cursor:pointer" onclick="callTransformer('transformer/designpage.php');"   class="vid small draggable"  >
+			   <div class="top"> 
+					text
+			  </div>    
+			  <div class="center">
+			</div>
+			<div class="bottom">
+			info
+			  </div>
+	</div>
 
-    	 
- 	  });
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/healthtechpage.php');" class="vid small draggable"  >
+	         <div class="top"> 
+			 text
+			  </div>   
+			  <div class="center">
+			</div>
+			<div class="bottom">
+			info
+			  </div>
+	  
+	</div>
 
-      
-    </script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-								
-</body>
-</html>
+</div>
+
+<!-- COLLUM 3 -->
+<div class="collum">
+
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/machinepage.php');" class="vid small draggable"  >
+		  <div class="top"> 
+		  text
+		  </div>
+		  <div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+		  
+	  </div>
+
+	<div  style="cursor:pointer"  onclick="callTransformer('transformer/marketingpage.php');" class="vid small draggable"  >
+		   <div class="top"> 
+					text
+		  </div>
+		<div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+	</div>
+
+	<div  style="cursor:pointer" onclick="callTransformer('transformer/musicpage.php');" class="vid small draggable"  >
+		            <div class="top"> 
+					text
+		  </div>
+		  <div class="center">
+		</div>
+		<div class="bottom">
+		info
+		  </div>
+	</div>
+
+	<div  style="cursor:pointer"  onclick="callTransformer('transformer/sportstage.php');" class="vid small draggable"  >
+	            <div class="top"> 
+				text
+	  </div>
+	<div class="center">
+	</div>
+	<div class="bottom">
+	info
+	  </div>
+	</div>
+
+</div>
+
+<script> 
+    $(".vid").hover( function() {
+    $(this).toggleClass('small');
+});
+
+
+$("#fs").hover( function() {
+    $(".vid").get(0).webkitEnterFullScreen();
+    $(".vid").removeClass('small');
+});
+ 
+ 
+  
+  
+  </script>

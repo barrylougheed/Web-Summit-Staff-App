@@ -15,29 +15,28 @@
        
           
 // 	  var httpObj = false;
-        
-//      alert('Function being called onClick');
+//       alert('Function being called onClick');
 //      //checks to see which browser is in use 
 // 	   if(window.XMLHttpRequest){
 // 	       httpObj = new XMLHttpRequest();
 // 	  }else if(window.ActiveXObject){
-// 	       httpObj = new ActiveXObject('Microsoft.XMLHTTP');
-// 	   }
-// 	   alert(xslFile);
+//       httpObj = new ActiveXObject('Microsoft.XMLHTTP');
+// }
+//   alert(xslFile);
 	 
 	  
 	  
-// 	   httpObj.onreadystatechange = function(){
+// // 	   httpObj.onreadystatechange = function(){
 // 	   	if(httpObj.readyState == 4 && httpObj.status == 200){
 // 	   		  console.log(httpObj.responseText);
 // 	  	      $('#homemain').load('xsltransformer.php');
 // 	       	}
-// 	      }
+//       }
 	         
-// 	      httpObj.open('POST','xsltransformer.php?xslTemp=' + url,true); 
+//  	      httpObj.open('POST','xsltransformer.php?xslTemp=' + url,true); 
 // 	      httpObj.send();
 	        
-//   // //   }
+//   }
       
 
     
@@ -50,7 +49,7 @@
        
        
       
-        $.ajax({
+   /*     $.ajax({
             
             type:"GET",
             url:"xsltransformer.php",
@@ -72,7 +71,7 @@
                 alert('A problem occured sending the data');
             }
              
-        }); 
+        }); */
         
       
         

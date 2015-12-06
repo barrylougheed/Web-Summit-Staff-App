@@ -93,17 +93,16 @@
            <div class="collapse navbar-collapse navCollapse" id = "navClass"> 
  				<ul class = "nav navbar-nav navbar-right" id="topNav">
                     <li class = "navPad dropdown"><a href="#">
-                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                    Notifications </a>
-                   		 <ul id = "dropdownNav" class="dropdown-menu">
-                    		<li><a href="">1 New notification</a></li>
-                    		<li><a href="">Ste has been creeping on you</a></li>
-                    	</ul>
-                    </li>
-                    <li class= "navPad"><a href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                   <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     	Fav's</a></li>
                    
 
+                   		 <ul id = "dropdownNav" class="dropdown-menu">
+                    	
+                    	</ul>
+                    </li>
+                    
+                    
  				</ul>
            </div>
 
@@ -194,7 +193,7 @@
 	  httpObj.onreadystatechange = function(){
 	   	if(httpObj.readyState == 4 && httpObj.status == 200){
 	  	      document.getElementById('homemain').innerHTML = httpObj.responseText;
-	  	       console.log(url)
+	  	       console.log(url);
 	  	               
 	  	      // $('#homemain').load(url);
 	         } 	       

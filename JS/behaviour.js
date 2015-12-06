@@ -1,9 +1,23 @@
  $(document).ready(function(){
-          
+          alert('working');
            setTimeout(function(){
            		$('#btnTue').trigger('click');
            },10);
- });   
+ 
+    
+
+            
+
+      
+
+    
+
+
+ });  
+ 
+ function testbtn(){
+     
+      
 
             $('#btnTue').click(function(){
               $('.hidewed').hide();
@@ -25,11 +39,5 @@
              $('.hidetue').hide();
              $('.hidethur').show();
             });
-
             
-
-      
-
-
-
- 
+ }

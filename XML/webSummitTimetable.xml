@@ -892,13 +892,13 @@
                             <info>Co-Founder and CEO and RSE Venture</info>
                         </speaker>
                         
-                          <speaker id="8">
+                          <speaker id="1">
                             <name>Curt Cronin</name>
                             <image></image>
                             <info>Co-Founder at Mastery Techonologies</info>
                              </speaker>
                              
-                             <speaker id="9">
+                             <speaker id="2">
                             <name>Ben Smith</name>
                             <image></image>
                             <info>Smith</info>
@@ -922,19 +922,19 @@
                             <info>Co-Founder and Chairman at Thuzio</info>
                     </speaker>
                     
-                    <speaker id="10">
+                    <speaker id="1">
                             <name>Jaime Heaslip</name>
                             <image></image>
                             <info>Rugby Player at Leinster Rugby</info>
                              </speaker>
                              
-                             <speaker id="11">
+                             <speaker id="2">
                             <name>Jaime Heaslip</name>
                             <image></image>
                             <info>Rugby Player at Leinster Rugby</info>
                              </speaker>
                              
-                             <speaker id="12">
+                             <speaker id="3">
                             <name>Ger Gilroy</name>
                             <image></image>
                             <info>Presenter and Co - Founder at Newstalk/Balls.ie</info>
@@ -962,13 +962,13 @@
                             <info>CEO at Grabyo</info>
                         </speaker>
                         
-                          <speaker id="13">
+                          <speaker id="1">
                             <name>Nacho Trujillo</name>
                             <image> </image>
                             <info>Managing Director, Innovation and Global Development at La Liga</info>
                              </speaker>
                              
-                             <speaker id="14">
+                             <speaker id="2">
                             <name>Alexandra Willis</name>
                             <image> </image>
                             <info>Head of Digital and Content at The All England Lawn Tennis Club Limited</info>
@@ -992,7 +992,7 @@
                             <info>Head of the Rugby World Cup at World Rugby</info>
                     </speaker>
                     
-                    <speaker id="15">
+                    <speaker id="1">
                             <name>Ruaidhri O'Connor</name>
                             <image> </image>
                             <info>Rugby Correspondent at Irish Independent</info>
@@ -1041,19 +1041,19 @@
                             <image></image>
                             <info>Chief Digital Officer atThe Guardian</info>
                         </speaker>
-                          <speaker id="2">
+                          <speaker id="1">
                             <name>Will Harris</name>
                             <image></image>
                             <info>Head of Digital at Conde Nast Publications</info>
                              </speaker>
                              
-                             <speaker id="3">
+                             <speaker id="2">
                             <name>Eric Schurenberg</name>
                             <image></image>
                             <info>President and Editor-in-Chief atInc.com</info>
                              </speaker>
                              
-                             <speaker id="4">
+                             <speaker id="3">
                             <name>Samantha Henig</name>
                             <image></image>
                             <info>Digital Deputy, at The New York Times</info>
@@ -1075,7 +1075,7 @@
                             <image></image>
                             <info> EVP and Head of Digital at CNN </info>
                     </speaker>
-                     <speaker id="5">
+                     <speaker id="1">
                             <name>Aine Kerr</name>
                             <image></image>
                             <info>Managing Editor at Storyful </info>
@@ -1097,13 +1097,13 @@
                             <image></image>
                             <info>European Editor at Newsweek Magazine</info>
                         </speaker>
-                          <speaker id="6">
+                          <speaker id="1">
                             <name>Alexander Klopping</name>
                             <image></image>
                             <info>Founder at Blendie</info>
                              </speaker>
                              
-                             <speaker id="7">
+                             <speaker id="2">
                             <name>Stephen Rae</name>
                             <image></image>
                             <info>Group Editor-in-Chief at Independent News and Media</info>
@@ -1176,15 +1176,6 @@
 
 
 
-<!--   ****************** ATTENTION ************************
-        
-        What stages are left:
-                            
-                            * Sport
-                            * Content
-                            
-       Also each of the talks for all of the times has to still be done barry.........
+
        
        
-       
--->
