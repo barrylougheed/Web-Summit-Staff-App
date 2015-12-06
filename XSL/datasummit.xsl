@@ -58,8 +58,8 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/description"/> </p>
+			    			 <h4><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/title"/></h4>
+		     				 <p><xsl:apply-templates select="//datastage/wednesday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//datastage/wednesday/morning//talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//datastage/wednesday/morning//talk/speaker/name"/> </span>
@@ -99,7 +99,7 @@
 
 		    			<div class="contentWrapper hidewed">
 			    			 <h1><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//datastage/wednesday/afternoon/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//datastage/wednesday/afternoon/talk/speaker"/> </span>
@@ -207,7 +207,7 @@
 
 </xsl:template>
 
-<xsl:template match="description">
+<xsl:template match="info">
 
    <xsl:value-of select="."/>
 

@@ -11,7 +11,8 @@
 </xsl:template>
 
 <xsl:template match="/">
-   
+
+ <html>
 
 	    <div id="talkcontent">
 
@@ -30,40 +31,40 @@
 				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
-
            
 	    	</div>
-           
 	    	
-	    	
-	    	<div id="talkwrapper">
+	    
 	    	 	<ul id="talktimes">
 	    	 	
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
+		    			tue div
 		    			 
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
-		    			 	
+		    		    	wed div
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		      <p> <xsl:apply-templates select="//healthtechstage/thursday/morning/time/start"/> </p>
+		    		    	<span>Time</span>
+		    			
+		    			 	<p> <xsl:apply-templates select="//healthtechstage/thursday/morning/talk/time/start"/> </p>
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
-	     				
+	     				 <span> wednesday div</span>	 
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
 			    			
 		    			</div>
+		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/description"/> </p>
+		    				<h4><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h4>
+		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/morning/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/speaker"/> </span>
@@ -83,12 +84,12 @@
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
-		    		      
+		    		    	wed div
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		       <p> <xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/time/start"/> </p>
+		    		    	<span>Time</span>
+		    		       <p> <xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
@@ -98,17 +99,17 @@
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			
+			    			 <span>wed div</span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/details/description"/> </p>
-		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//healthtechstage/wednesday/afternoon/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/speaker"/> </span>
-		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//healthtechstage/wednesday/afternoon/talk/speaker/info"/> </span>
+			    			 <h1><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/details/title"/></h1>
+			     				 <p><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/details/description"/> </p>
+			     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+			     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/afternoon/talk/speaker/image}'></img>
+			     				 <span><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/speaker/name"/> </span>
+			     				  <br></br>
+			     				 <span><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    				
 	                       
@@ -149,7 +150,7 @@
 	    	</div>
 
 
-	    </div>
+	
 
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -157,12 +158,25 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript">
         
-      
+        $(document).ready(function(){
+          
+           setTimeout(function(){
+           		$('#btnTue').trigger('click');
+           },10);
+          
+
+           
+            
+
+        });
+
     </script>
+    
+    
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								
-
+</html>
    
 
 
@@ -194,7 +208,7 @@
 
 </xsl:template>
 
-<xsl:template match="description">
+<xsl:template match="info">
 
    <xsl:value-of select="."/>
 

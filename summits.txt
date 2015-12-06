@@ -2,37 +2,32 @@
 
 	<div style="cursor:pointer" onclick="callTransformer('transformer/datapage.php');" class="vid small draggable">
 		  <div class="top"> 
-		 	 text
+		 	Data Stage
 		  </div>
 		  <div class="center">
 		  </div>
-		  <div class="bottom">
 		  
-		  </div>
 	</div>
   
   
 
 	<div  style="cursor:pointer" onclick ="callTransformer('transformer/codepage.php');"  class="vid small draggable"  >
 	            <div class="top"> 
-					text
+				Code Stage
 			   </div>
 			   <div class="center">
+			   <img scr ="https://www.filepicker.io/api/file/9tZ1VzcYQeKeZrAQSr9D">
 		     	</div>
-				<div class="bottom">
-					info
-				 </div>
+				
 	</div>
 	
 	<div  style="cursor:pointer" onclick="callTransformer('transformer/centerStage.php');"  class="vid small draggable"  >
 	            <div class="top"> 
-				text
+				Center Stage
 				  </div>
 				  <div class="center draggable">
 				</div>
-				<div class="bottom">
-				info
-				  </div>
+				
 	</div>
 	
 </div>
@@ -44,37 +39,31 @@
 
 	<div style="cursor:pointer" onclick="callTransformer('transformer/contentStage.php');" class="vid small draggable"  >
 		  <div class="top"> 
-		  storage
+		  Content Stage
 		  </div>
 		  <div class="center">
 		</div>
-		<div class="bottom">
-		info
-		  </div>
+		
 	 </div>
   
 
 
 	<div style="cursor:pointer" onclick="callTransformer('transformer/designStage.php');"   class="vid small draggable"  >
 			   <div class="top"> 
-					text
+				Design Stage
 			  </div>    
 			  <div class="center">
 			</div>
-			<div class="bottom">
-			info
-			  </div>
+		
 	</div>
 
 	<div  style="cursor:pointer" onclick="callTransformer('transformer/healthtechpage.php');" class="vid small draggable"  >
 	         <div class="top"> 
-			 text
+			HealthTech Stage
 			  </div>   
 			  <div class="center">
 			</div>
-			<div class="bottom">
-			info
-			  </div>
+		
 	  
 	</div>
 
@@ -85,47 +74,39 @@
 
 	<div  style="cursor:pointer" onclick="callTransformer('transformer/machinepage.php');" class="vid small draggable"  >
 		  <div class="top"> 
-		  text
+		  Machine Stage
 		  </div>
 		  <div class="center">
 		</div>
-		<div class="bottom">
-		info
-		  </div>
+		
 		  
 	  </div>
 
 	<div  style="cursor:pointer"  onclick="callTransformer('transformer/marketingpage.php');" class="vid small draggable"  >
 		   <div class="top"> 
-					text
+					Marketing Stage
 		  </div>
 		<div class="center">
 		</div>
-		<div class="bottom">
-		info
-		  </div>
+	
 	</div>
 
 	<div  style="cursor:pointer" onclick="callTransformer('transformer/musicpage.php');" class="vid small draggable"  >
 		            <div class="top"> 
-					text
+				Music Stage
 		  </div>
 		  <div class="center">
 		</div>
-		<div class="bottom">
-		info
-		  </div>
+		
 	</div>
 
 	<div  style="cursor:pointer"  onclick="callTransformer('transformer/sportpage.php');" class="vid small draggable"  >
 	            <div class="top"> 
-				text
+				Sports Stage
 	  </div>
 	<div class="center">
 	</div>
-	<div class="bottom">
-	info
-	  </div>
+	
 	</div>
 
 </div>

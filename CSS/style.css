@@ -280,33 +280,20 @@ text-decoration: none;
 list-style: none;
 border: 1px solid ;
 border-radius: 50%;
-background:  grey;
+
 }
 
 
 .center{
 	width:93%;
-	height:40%;
-	background:green;
+	height:70%;
 	border-radius:50%;
 	margin: 0 auto;
 }
 
 
-.bottom{
-	width:75%;
-	height:38%;
-ƒ	background:red;
-	border-radius:50%;
-	margin: 0 auto;
-	text-align:center;
-	padding: 2px 2px;
-	text-decoration:none;
-	list-style:none;
-	font-size: 15px;
-	font-weight: bold;
-	color:white;
-}
+
+
 
 
 /* 
@@ -400,6 +387,8 @@ background:  grey;
 .tempStyleDraggable{
 	width:200px;
 	height:200px;
+	z-index:3000;
+
 }
 
 /*shift swapper*/

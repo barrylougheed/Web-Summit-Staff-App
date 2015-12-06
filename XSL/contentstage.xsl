@@ -21,13 +21,13 @@
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
 				<div class="btn-group btn-group-justified" role="group" aria-label="..." onload="triggerClick();">
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
+				    <button type="button" id="btnTue"  class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">Wenesday</button>
+				    <button type="button" id="btnWed"  class="btn btn-default">Wenesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
+				    <button type="button" id="btnThur"  class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
 
@@ -58,7 +58,7 @@
 
 		    			<div class="contentWrapper hidewed hide">
 			    			 <h1><xsl:apply-templates select="//contentstage/wednesday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/wednesday/morning/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//contentstage/wednesday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//contentstage/wednesday/morning/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//contentstage/wednesday/morning/talk/speaker"/> </span>
@@ -68,7 +68,7 @@
 		    			
 		    			<div class="contentWrapper hidethur hide">
 		    				 <h1><xsl:apply-templates select="//contentstage/thursday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/thursday/morning/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//contentstage/thursday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//contentstage/thursday/morning/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//contentstage/thursday/morning/talk/speaker"/> </span>
@@ -104,7 +104,7 @@
 
 		    			<div class="contentWrapper hidewed">
 			    			 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker"/> </span>
@@ -114,7 +114,7 @@
 		    			
 		    			<div class="contentWrapper hidethur">
 		    					 <h1><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//contentstage/tuesday/afternoon/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//contentstage/tuesday/afternoon/talk/speaker"/> </span>
@@ -204,7 +204,7 @@
 
 </xsl:template>
 
-<xsl:template match="description">
+<xsl:template match="info">
 
    <xsl:value-of select="."/>
 

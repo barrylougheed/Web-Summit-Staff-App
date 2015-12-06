@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+
+		
+
+		<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
+		
+	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+
+	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+	    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	    
+	    
+	    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+
+	    <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
+
+	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
+
+	    <script src="JS/sidebarbehaviour.js" type="text/JavaScript"></script>
+	    
+	    <script src="JS/behaviour.js" type="text/javascript"></script>
+	
+    </head>
+    <body>
+        
+        <div class="draggable" style="width:200px; height:200px; background-color:red;">hello linus</div>
+        
+        <div id="dropable" style="width:300px; height:300px; background-color:blue;"></div>
+    </body>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            alert('drag being called');
+        
+          // var $timesList = ('#draggable');
+          //    $($timesList,'li').draggable({
+          //         revert: true
+
+          //      });
+
+             var $index = ('.navbar-fixed-top');
+             $('.draggable').draggable({
+                
+                containment:"document",
+                revert: true,
+                drag:function(event, ui){
+                   $(this).addClass("tempStyleDraggable");
+                }
+
+             
+             }); /*function(){
+                 $($index).css("index",0);
+               });*/
+         
+             $('#dropable').droppable({
+                
+                 drop:function(event,ui){
+                    alert("Drop Working");
+                    $('.draggable').removeClass("tempStyleDraggable");
+                    $('.draggable').addClass("talkholder");
+                    
+                    var
+
+
+                }
+                //create a function that is actived on, the drop of element
+                // when the element is dropped grab the info from within and use ajax to display it 
+
+             });
+ 
+            
+        });
+        
+    </script>
+</html>

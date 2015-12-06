@@ -4,7 +4,7 @@
 	<title>Web summit Staff App</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
 
-		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		
 
 		<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
 		
@@ -13,12 +13,13 @@
 	    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 
 	    <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	    
+	    
+	    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
 
 	    <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
 
 	    <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
-
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	    <script src="JS/sidebarbehaviour.js" type="text/JavaScript"></script>
 	    
@@ -52,7 +53,6 @@
 </script>
 	    
 	    
-	    
 </head>
 <body>
 	<div class="container-fluid">
@@ -64,6 +64,7 @@
 						<li id="home" class="btndesign"><a class="btnfont" >Home</a></li>
 						<li id="test" class="btndesign" ><a class="btnfont">Test</a></li>
 						<li id="test2" class="btndesign" ><a class="btnfont" onclick="callTransformer('tempshift.php');" >Testscr</a></li>
+						<li id="test3" class="btndesign" ><a class="btnfont" >Testscr2</a></li>
 					</ul>
 				</div>
 			
@@ -135,13 +136,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
  <script type="text/javascript">
 
-    function triggerClick(){
-        		  alert('trigger working');
-        		  setTimeout(function(){
-           		$('#btnTue').trigger('click');
-           	},10);
-           	
-           	}
+    
     
   $(document).ready(function(){
 		
@@ -197,7 +192,7 @@
  
  function callTransformer(url){
  
- 	 this.url = url;
+ /*	 this.url = url;
  	
  	 var httpObj = false;
  	 alert('Function being called onClick');
@@ -223,10 +218,114 @@
 	        
 	       httpObj.send();
 
+  */
   
+  
+   $.ajax({
+            
+            type:"GET",
+            url: url,
+            dataType:'html',
+            
+            success:function(data){
+            	console.log(data);
+                  document.getElementById('homemain').innerHTML = data;
+                   hideDivs();
+                   dragAndDrop();
+                //	$('#homemain').load(data);
+                // if(data.success==true){
+                //     alert('data retrived from server')
+                //     document.write(data);
+                // }else{
+                //      alert('was unable to retrive data from server')
+                // }
+            }, error:function(data){
+                alert('A problem occured sending the data');
+            }
+            
+           });
+           
+         
+	            //$('#btnTue').trigger('click')
+	           
+	          
+           
+            
+ 
+ 
+           
+            
+ }    
   
 
- }
+ 
+  
+  
+ 
+ function hideDivs(){
+     	
+     	
+     	/* hide the elements when the ajax request has loaded content as the elements are not present before  */
+     
+     	 $('.hidewed').hide();
+	     $('.hidethur').hide();
+	     $('.hidetue').show();
+	     
+	    
+     }
+     
+     
+function dragAndDrop(){
+	
+       alert('drag being called');
+        
+          // var $timesList = ('#draggable');
+          //    $($timesList,'li').draggable({
+          //         revert: true
+
+          //      });
+
+             var $index = ('.navbar-fixed-top');
+             $('.draggable').draggable({
+                
+                containment:"document",
+                revert: true,
+                drag:function(event, ui){
+                   $(this).addClass("tempStyleDraggable");
+                }
+
+             
+             }); /*function(){
+                 $($index).css("index",0);
+               });*/
+         
+             $('#dropable').droppable({
+                
+                 drop:function(event,ui){
+                    alert("Drop Working");
+                    $('.draggable').removeClass("tempStyleDraggable");
+                    $('.draggable').addClass("talkholder");
+
+
+                }
+                //create a function that is actived on, the drop of element
+                // when the element is dropped grab the info from within and use ajax to display it 
+
+             });
+
+             console.log("My gits are not counting thank you linus")
+
+           /*  var pos = draggable.getBoundingClientRect();
+             console.log(pos.top, pos.right, pos.bottom)  */
+        
+
+
+      
+
+
+
+
+}
      </script>
     
 								

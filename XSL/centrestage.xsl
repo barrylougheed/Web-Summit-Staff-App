@@ -21,13 +21,13 @@
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
 				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
+				    <button type="button" id="btnTue"  class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">wednesday</button>
+				    <button type="button" id="btnWed"  class="btn btn-default">wednesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
+				    <button type="button" id="btnThur"  class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
 
@@ -54,7 +54,7 @@
 
 		    		   <div class="contentWrapper hidetue">
 	     				 <h1><xsl:apply-templates select="//centrestage/tuesday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/tuesday/morning/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/tuesday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/tuesday/morning/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/tuesday/morning/talk/speaker"/> </span>
@@ -64,7 +64,7 @@
 
 		    			<div class="contentWrapper hidewed">
 			    			 <h1><xsl:apply-templates select="//centrestage/wednesday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/wednesday/morning/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/wednesday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/wednesday/morning/talk/details/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/wednesday/morning/talk/details/speaker/name"/> </span>
@@ -74,7 +74,7 @@
 		    			
 		    			<div class="contentWrapper hidethur">
 		    				 <h1><xsl:apply-templates select="//centrestage/thursday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/thursday/morning/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/thursday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/thursday/morning/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/thursday/morning/talk/speaker/image"/> </span>
@@ -106,7 +106,7 @@
 
 		    		   <div class="contentWrapper hidetue">
 	     					 <h1><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/tuesday/afternoon/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/speaker"/> </span>
@@ -116,7 +116,7 @@
 
 		    			<div class="contentWrapper hidewed">
 			    			 <h1><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/tuesday/afternoon/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/speaker"/> </span>
@@ -126,7 +126,7 @@
 		    			
 		    			<div class="contentWrapper hidethur">
 		    					 <h1><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/description"/> </p>
+		     				 <p><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//centrestage/tuesday/afternoon/talk/speaker/image}'></img>
 		     				 <span><xsl:apply-templates select="//centrestage/tuesday/afternoon/talk/speaker"/> </span>
@@ -217,7 +217,7 @@
 
 </xsl:template>
 
-<xsl:template match="description">
+<xsl:template match="info">
 
    <xsl:value-of select="."/>
 

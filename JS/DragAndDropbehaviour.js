@@ -1,6 +1,7 @@
- $(document).ready(function(){     
-     $(function(){
 
+/*
+$('#homemain').on('click','.draggable',function(){
+       alert('being called');
         
           // var $timesList = ('#draggable');
           //    $($timesList,'li').draggable({
@@ -9,7 +10,7 @@
           //      });
 
              var $index = ('.navbar-fixed-top');
-             $('.draggable').draggable({
+             $('#homemain .draggable').draggable({
                 
                 containment:"document",
                 zIndex: 2000,
@@ -21,7 +22,7 @@
              
              }); /*function(){
                  $($index).css("index",0);
-               });*/
+               });
          
              $('#dropable').droppable({
                  accept:".draggable",
@@ -40,8 +41,12 @@
              console.log("My gits are not counting thank you linus")
 
            /*  var pos = draggable.getBoundingClientRect();
-             console.log(pos.top, pos.right, pos.bottom)  */
-            }); 
+             console.log(pos.top, pos.right, pos.bottom)  
+        
 
 
-});
+      
+
+}); */
+ 
+
