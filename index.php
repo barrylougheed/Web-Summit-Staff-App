@@ -93,16 +93,7 @@
 
            <div class="collapse navbar-collapse navCollapse" id = "navClass"> 
  				<ul class = "nav navbar-nav navbar-right" id="topNav">
-                    <li class = "navPad dropdown"><a href="#">
-                   <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                    	Fav's</a></li>
                    
-
-                   		 <ul id = "dropdownNav" class="dropdown-menu">
-                    	
-                    	</ul>
-                    </li>
-                    
                     
  				</ul>
            </div>

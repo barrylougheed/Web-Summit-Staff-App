@@ -38,14 +38,14 @@
 	    		
 	    	 	<ul id="talktimes">
 	    	 	
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
 		    			 <p> <xsl:apply-templates select="//marketingstage/tuesday/morning/talk[1]/time/start"/> </p>
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
+		    		    	
 		    			 	<p> <xsl:apply-templates select="//marketingstage/wenesday/morning/talk[1]/time/start"/> </p>
 		    		    </div>
 		    		    
@@ -87,7 +87,7 @@
 
 		    		 </li>
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    			 
 		    		   <div class="time hidetue">
@@ -95,7 +95,7 @@
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
+		    		    	
 		    		       <p> <xsl:apply-templates select="//marketingstage/wenesday/afternoon/time/start"/> </p>
 		    		    </div>
 		    		    
@@ -139,7 +139,7 @@
 		    		 </li>
 
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    	         <div class="time hidetue">
 		    			

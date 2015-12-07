@@ -34,14 +34,14 @@
 	    	<div id="talkwrapper">
 	    	 	<ul id="talktimes">
 	    	 	
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
 		    			 <p> <xsl:apply-templates select="//machinestage/tuesday/morning/talk[1]/time/start"/> </p>
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
+		    		    	
 		    			 	<p> <xsl:apply-templates select="//machinestage/wednesday/morning/talk[1]/time/start"/> </p>
 		    		    </div>
 		    		    
@@ -83,7 +83,7 @@
 
 		    		 </li>
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    			 
 		    		   <div class="time hidetue">
@@ -91,7 +91,7 @@
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	<span>Time</span>
+		    		    	
 		    		       <p> <xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
@@ -101,11 +101,11 @@
 		    		    
 		    		    
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue"  id="tueDiv">
 	     				 <span> tuesday div</span>
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed"  id="wedDiv">
 			    			 <h1 class="talktitle"><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
@@ -115,7 +115,7 @@
 		     				 <span><xsl:apply-templates select="//machinestage/wednesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur"  id="thurDiv">
 		    			
 		    			</div>
 		    				
@@ -123,7 +123,7 @@
 		    		 </li>
 
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    	         <div class="time hidetue">
 		    			

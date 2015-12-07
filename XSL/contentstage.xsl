@@ -35,12 +35,12 @@
 	    	</div>
 	    	
 	    
-	    	 	<ul id="talktimes">
+	    	 	<ul id="talkwrapper">
 	    	 	
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
-		    			  <h1> No Reults </h1>
+		    			
 		    		   </div>
 
 		    		    <div class="time hidewed">
@@ -81,10 +81,10 @@
 
 		    		 </li>
 		    		 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
-		    			  <h1> No Reults </h1>
+		    			 
 		    		   </div>
 
 		    		    <div class="time hidewed">
@@ -125,7 +125,7 @@
 
 		    		 </li>
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    			 
 		    		   <div class="time hidetue">

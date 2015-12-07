@@ -35,9 +35,9 @@
 	    	</div>
 	    	
 	    
-	    	 	<ul id="talktimes">
+	    	 	<ul id="talkwrapper">
 	    	 	
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
 		    			
@@ -75,11 +75,11 @@
 
 		    		 </li>
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    			 
 		    		   <div class="time hidetue">
-		    			 	<span>Time</span>
+		    			 	
 		    		       <p> <xsl:apply-templates select="//designstage/tuesday/afternoon/talk/time/start"/> </p>
 		    		   </div>
 
@@ -114,7 +114,7 @@
 		    		 </li>
 
 
-		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
+		    		 <li class="talkholder " onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    	        <div class="time hidetue">
 		    			 
