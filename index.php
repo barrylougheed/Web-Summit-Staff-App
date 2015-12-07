@@ -62,9 +62,9 @@
 				<div class="tempbtn">
 					<ul>
 						<li id="home" class="btndesign"><a class="btnfont" >Home</a></li>
-						<li id="test" class="btndesign" ><a class="btnfont">Test</a></li>
-						<li id="test2" class="btndesign" ><a class="btnfont" onclick="callTransformer('tempshift.php');" >Testscr</a></li>
-						<li id="test3" class="btndesign" ><a class="btnfont" >Testscr2</a></li>
+						<!--<li id="test" class="btndesign" ><a class="btnfont">Test</a></li>
+						<li id="test2" class="btndesign" ><a class="btnfont" onclick="callTransformer('tempshift.php');" >Testscr</a></li>-->
+						<li id="test" class="btndesign" ><a class="btnfont" >form</a></li>
 					</ul>
 				</div>
 			
@@ -221,17 +221,23 @@
   */
   
   
+  
    $.ajax({
             
             type:"GET",
             url: url,
+            cache: false,
             dataType:'html',
-            
+            beforeSend:function(){
+              alert('before ajax is sent');
+              $('#homemain').html('<img src="images/ajax-loader.gif"></img>');
+            },
             success:function(data){
             	console.log(data);
                   document.getElementById('homemain').innerHTML = data;
                    hideDivs();
                    dragAndDrop();
+                   styleTalks();
                 //	$('#homemain').load(data);
                 // if(data.success==true){
                 //     alert('data retrived from server')
@@ -242,7 +248,7 @@
             }, error:function(data){
                 alert('A problem occured sending the data');
             }
-            
+                     
            });
            
          
@@ -267,13 +273,16 @@
      	
      	/* hide the elements when the ajax request has loaded content as the elements are not present before  */
      
-     	 $('.hidewed').hide();
+     	$('.hidewed').hide();
 	     $('.hidethur').hide();
 	     $('.hidetue').show();
 	     
-	    
-     }
-     
+	     var content = $('.hidetue').data();
+	     
+	     if(content == " " || null){
+	        $('.hidetue').data('No results')
+	     }
+}
      
 function dragAndDrop(){
 	
@@ -313,7 +322,7 @@ function dragAndDrop(){
 
              });
 
-             console.log("My gits are not counting thank you linus")
+             
 
            /*  var pos = draggable.getBoundingClientRect();
              console.log(pos.top, pos.right, pos.bottom)  */
@@ -325,6 +334,12 @@ function dragAndDrop(){
 
 
 
+}
+
+function styleTalks(){
+ 
+ 
+ 
 }
      </script>
     

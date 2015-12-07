@@ -1,36 +1,7 @@
-<?xml version='1.0'?>
+<?xml version="1.0"?>
 <rss version="2.0">
-	<channel>
 		<title>WebSite RSS feed</title>
 		<link>#</link>
-		<item>
-			<title>
-				Five highlights from Web Summit workshops
-			</title>
-			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
-			<image>../images/websumitimg.jpg</image>
-			<description>this is a small description of the content </description>
-		</item>
-		<item>
-			<title>
-				Five highlights from Web Summit workshops 2
-			</title>
-			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
-			<image>../images/websumitimg.jpg</image>
-			<description>
-				this is a small description of the content 2
-			</description>
-		</item>
-		<item>
-			<title>
-				Five highlights from Web Summit workshops 3
-			</title>
-			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
-			<image>../images/websumitimg.jpg</image>
-			<description>
-				this is a small description of the content 3
-			</description>
-		</item>
-	</channel>
-</rss>
+	
+<item><title>larry escaped</title><link>0</link><image>./images/larry.jpg</image><description>a bubbles just look a like escaped prison, be vigilant</description></item><item><title/><link>0</link><image/><description>efef</description></item></rss>
 <!--the website that helped me create this feed is: http://www.xul.fr/en-xml-rss.html-->

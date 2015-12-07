@@ -401,6 +401,7 @@
                         </time>
                         
                         <details>
+                             <title></title>
                              <description>
                                  Application ops Ladder
                              </description>
@@ -490,7 +491,7 @@
     </healthtechstage>
     
      <musicstage>
-         <thursday>
+         <wednesday>
                   <morning>
                       <talk>
                         <time>
@@ -556,7 +557,7 @@
                         
                         </talk>
                     </afternoon>
-         </thursday>
+         </wednesday>
     </musicstage>
     
     <designstage>
@@ -808,7 +809,7 @@
                         </time>
                         
                       <details>
-                            <name>Monetizing Social</name>
+                            <title>Monetizing Social</title>
                              <description>
                                  AdAs part of one of the most engaging platforms on the Internet, Tim Kendall has monetized Pinterest in new and interesting ways including by launching Buyable Pins in June. He will discuss in a little more detail the company's commerce plans.
                              </description>
@@ -830,7 +831,7 @@
                         </time>
                         
                         <details>
-                             <name>Advertising state of the nation</name>
+                             <title>Advertising state of the nation</title>
                              <description>
                                  There are few more accomplished figures in the world of advertising than Harris Diamond. In this fireside with Jim Edwards of Business Insider, he will address the underlying issues affecting advertising in 2015....
                              </description>
@@ -847,7 +848,7 @@
                         </time>
                         
                         <details>
-                            <name>Resist and trive</name>
+                            <title>Resist and trive</title>
                              <description>
                                  Avoiding the pressure to optimize for profit seems impossible in 2015. Yancey Strickler of Kickstarter will outline the path to independence and real value, not just valuation.
                              </description>
@@ -873,7 +874,7 @@
                         </time>
                         
                         <details>
-                             <name>Advertising state of the nation</name>
+                             <title>Advertising state of the nation</title>
                              <description>
                                  There are few more accomplished figures in the world of advertising than Harris Diamond. In this fireside with Jim Edwards of Business Insider, he will address the underlying issues affecting advertising in 2015....
                              </description>
@@ -884,19 +885,9 @@
                             <image>https://s3.amazonaws.com/bouncer-prod/attendees/521718/medium/521718?1444824535</image>
                             <info>CTO at pixability</info>
                             
-                        </speaker >
-                        <speaker id="2">
-                            <name>Sarah Wood</name>
-                            <image>https://s3-eu-west-1.amazonaws.com/summitid/people/58031/medium/Sarah.jpg?1415202297</image>
-                            <info>Co-Founder and Co-CEO at Unruly</info>
-                            
                         </speaker>
-                      <speaker id="3">
-                            <name>Jonathan Cloonan</name>
-                            <image>https://www.filepicker.io/api/file/58yLXJ8QS7OkSIJhGROL</image>
-                            <info>Senior Director at Group M Entertainment</info>
-                            
-                        </speaker>
+                       
+                    
                   </talk>
                    <talk>
                         <time>
@@ -905,11 +896,18 @@
                         </time>
                         
                         <details>
-                             <name>Advertising state of the nation</name>
+                             <title>Advertising state of the nation</title>
                              <description>
                                  es in the world of advertising than Harris Diamond. In this fireside with Jim Edwards of Business Insider, he will address the underlying issues affecting advertising in 2015....
                              </description>
                         </details>
+                        
+                          <speaker>
+                            <name>Jonathan Cloonan</name>
+                            <image>https://www.filepicker.io/api/file/58yLXJ8QS7OkSIJhGROL</image>
+                            <info>Senior Director at Group M Entertainment</info>
+                            
+                        </speaker>
                  </talk>
              </morning>
           
@@ -920,7 +918,7 @@
                                                     </time>
                         
                         <details>
-                            <name>Video killed the TV ad</name>
+                            <title>Video killed the TV ad</title>
                              <description>
                                  Video is quickly taking over. The likes of YouTube and Facebook are amongst the platforms but who are the video advertising companies driving the next wave of visual advertising and what's the ultimate ambition?
                              </description>
@@ -1038,25 +1036,7 @@
          
          <wednesday>
                   <morning>
-                      <talk>
-                        <time>
-                            <start>9:25am</start>
-                            
-                        </time>
-                        
-                        <details>
-                             <title>Centre Stage opening remarks</title>
-                             <description>
-                                 The founder of Web Summit's welcoming remarks for the second day.
-                             </description>
-                        </details>
-                        
-                        <speaker>
-                            <name>Paddy Cosgrave</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/526453/medium/526453?1444482177D</image>
-                            <info>CEO, Web Summit</info>
-                        </speaker>
-                      </talk>
+                     
 <talk>
                         <time>
                             <start>10.00</start>
@@ -1211,7 +1191,7 @@
         
     </centrestage>
     
-   <sportStage>
+   <sportstage>
           <wednesday>
                   <morning>
                       <talk>
@@ -1231,19 +1211,9 @@
                             <info>Co-Founder and CEO and RSE Venture</info>
                         </speaker>
                         
-                          <speaker id="1">
-                            <name>Curt Cronin</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513505/medium/513505?1444824320</image>
-                            <info>Co-Founder at Mastery Techonologies</info>
-                             </speaker>
-                             
-                             <speaker id="2">
-                            <name>Ben Smith</name>
-                            <image>https://www.filepicker.io/api/file/ZDUcTmZfSwqubJe2uvBQ</image>
-                            <info>Smith</info>
-                             </speaker>
-                             </talk>
-                              <talk>
+                          
+                     </talk>
+                      <talk>
                          <time>
                             <start>10.35</start>
                             
@@ -1261,6 +1231,7 @@
                         </speaker>
                        </talk> 
                    </morning>
+                   
                 <afternoon>
                     <talk>  
                         <time>
@@ -1288,11 +1259,7 @@
                              
                     
                              
-                             <speaker id="2">
-                            <name>Ger Gilroy</name>
-                            <image>https://www.filepicker.io/api/file/HeRBDsASFWdcPE8ZqctA</image>
-                            <info>Presenter and Co - Founder at Newstalk/Balls.ie</info>
-                             </speaker>
+                            
                     </talk>
                     
                     </afternoon>
@@ -1376,7 +1343,7 @@
          </thursday>
 
          
-          </sportStage>
+          </sportstage>
 
   <contentstage>
           <wednesday>
@@ -1405,8 +1372,8 @@
                         <time>
                             <start>10.20</start>
                             
-                        </time>
-                 <details>
+                      </time>
+                       <details>
                              <title>Read all about it: the future of print</title>
                              <description>
                                 Read all about it: the future of print
@@ -1417,49 +1384,12 @@
                             <image></image>
                             <info>Chief Digital Officer atThe Guardian</info>
                         </speaker>
-                          <speaker id="1">
-                            <name>Will Harris</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/521988/medium/521988?1444824525</image>
-                            <info>Head of Digital at Conde Nast Publications</info>
-                             </speaker>
-                             
-                             <speaker id="2">
-                            <name>Eric Schurenberg</name>
-                            <image>https://www.filepicker.io/api/file/di33TzePQOVybLl9FjQr</image>
-                            <info>President and Editor-in-Chief atInc.com</info>
-                             </speaker>
-                             
-                             <speaker id="3">
-                            <name>Samantha Henig</name>
-                            <image>https://www.filepicker.io/api/file/jTo4Oo56SvuzbcZlWX1e</image>
-                            <info>Digital Deputy, at The New York Times</info>
-                             </speaker>
-                        </talk>
-                  
-                        <talk>
-                        <time>
-                            <start>10.40</start>
-                            
-                        </time>
-                        
-                        <details>
-                             <title>Tomorrow's News</title>
-                             <description> Tomorrow's News
-                             </description>
-                        </details>
-                        <speaker>
-                            <name>Andrew Morse</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513542/medium/513542?1444823426</image>
-                            <info> EVP and Head of Digital at CNN </info>
-                    </speaker>
-                     <speaker id="1">
-                            <name>Aine Kerr</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/513559/medium/513559?1444824537</image>
-                            <info>Managing Editor at Storyful </info>
-                             </speaker>
-                          </talk>
                           
-                             
+                     </talk>
+                  
+                       
+            </morning>  
+            <afternoon>    
                          <talk> 
                              <time>
                             <start>11.00</start>
@@ -1476,18 +1406,8 @@
                             <image>https://www.filepicker.io/api/file/bjpRjgorT4mU2B7tUcQv</image>
                             <info>European Editor at Newsweek Magazine</info>
                         </speaker>
-                          <speaker id="1">
-                            <name>Alexander Klopping</name>
-                            <image>https://s3.amazonaws.com/bouncer-prod/attendees/512153/medium/512153?1444823906</image>
-                            <info>Founder at Blendie</info>
-                             </speaker>
-                             
-                             <speaker id="2">
-                            <name>Stephen Rae</name>
-                            <image>https://www.filepicker.io/api/file/4RxMOA8fT3fP86cS6QYY</image>
-                            <info>Group Editor-in-Chief at Independent News and Media</info>
-                             </speaker>
-                         </talk>
+                         
+                      </talk>
                           <talk>
                          <time>
                             <start>10.35</start>
@@ -1506,10 +1426,11 @@
                         </speaker>
                        </talk> 
                              
-                    </morning>
+                    </afternoon>   
                   </wednesday>
+                
                   
-                  <thursday>
+              <thursday>
                   <morning>
                       
                       <talk>

@@ -1,13 +1,4 @@
 
-//$(document).ready(function(){
-//$('#home, #test').click(function(){
-//	if(this.id == 'home'){
-//		$("#homemain").load("./test.txt");
-//	}else if(this.id == 'test'){
-//		$("#homemain").load("./hassantest.txt");
-//	}
-//});
-//});
 $(document).ready(function(){ 
   $('#sidenavbtn').click(function(){
         $('#sidenav').toggleClass('sidenavactive'); 
@@ -19,7 +10,7 @@ $(document).ready(function(){
 		if(this.id == 'test'){
 			$("#homemain").fadeOut(1000,"swing",function(){
 				//$("#homemain2").removeClass("inactive").addClass("active");
-				$("#homemain2").load("./hassantest.txt");
+				$("#homemain2").load("./staffShift_Form.php");
 				$("#homemain2").fadeIn(1000,"linear");
 				//$("#homemain").removeClass("active").addClass("inactive");
 			});

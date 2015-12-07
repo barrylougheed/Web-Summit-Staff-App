@@ -10,10 +10,6 @@ $xml = new DOMDocument;
 $xml->load('../XML/webSummitTimetable.xml');
 
 //load the xsl 
-/*$xsltue = $xslwed = $xslthur = new DOMDocument;
-$xsltue = $xslwed = $xslthur->substituteEntities = true;*/
-
-//$xsltue = new DOMDocument;
 $xsl= new DOMDocument;
 $xsl->substituteEntities = true;
 

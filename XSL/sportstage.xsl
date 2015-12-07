@@ -11,74 +11,71 @@
 </xsl:template>
 
 <xsl:template match="/">
-   
+
+ <html>
 
 	    <div id="talkcontent">
-
+			<link rel="stylesheet" type="text/css" href="./CSS/style.css"/>
 	    <div id="daysnav">
 
 	    		
 	    	 <!-- code taken from: http://getbootstrap.com/components/#btn-groups -->
-			<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnTue"  class="btn btn-default">Tuesday</button>
+				    <button type="button" id="btnTue" onclick="testbtn()" class="btn btn-default">Tuesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnWed"  class="btn btn-default">wednesday</button>
+				    <button type="button" id="btnWed" onclick="testbtn()" class="btn btn-default">wednesday</button>
 				  </div>
 				  <div class="btn-group" role="group">
-				    <button type="button" id="btnThur"  class="btn btn-default">Thursday</button>
+				    <button type="button" id="btnThur" onclick="testbtn()" class="btn btn-default">Thursday</button>
 				  </div>
 				</div>
            
 	    	</div>
 	    	
-	    	<div id="talkwrapper">
+	    
 	    	 	<ul id="talktimes">
 	    	 	
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
-		    			 <p> <xsl:apply-templates select="//sportStage/tuesday/morning/talk/time/start"/> </p>
+		    			
 		    		   </div>
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    			 	<p> <xsl:apply-templates select="//sportStage/wednesday/morning/talk/time/start"/> </p>
+		    			
+		    			 	<p> <xsl:apply-templates select="//datastage/wednesday/morning/talk[1]/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		      <p> <xsl:apply-templates select="//sportStage/thursday/morning/talk/time/start"/> </p>
+		    		    	<span>Time</span>
+		    			 	<p> <xsl:apply-templates select="//sportstage/thursday/morning/talk[1]/time/start"/> </p>
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <h1><xsl:apply-templates select="//sportStage/tuesday/morning/talk/title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/tuesday/morning/talk/description"/> </p>
-		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/tuesday/morning/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/morning/talk/speaker"/> </span>
-		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/morning/talk/speaker/info"/> </span>
+	     				 <span> <p> no results </p></span>
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//sportStage/wednesday/morning/talk/details//title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/wednesday/morning/talk/details/description"/> </p>
+			    			 <h1 class="talktitle"><xsl:apply-templates select="//sportstage/wednesday/morning/talk[1]/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//sportstage/wednesday/morning/talk[1]/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/wednesday/morning/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/wednesday/morning/talk/speaker/name"/> </span>
+		     				 <img width="50px" height="50px" src='{//sportstage/wednesday/morning/talk[1]/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/morning/talk[1]/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/wednesday/morning/talk/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/morning/talk[1]/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				 <h1><xsl:apply-templates select="//sportStage/thursday/morning/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/thursday/morning/talk/details/description"/> </p>
+		    				 <h1 class="talktitle"><xsl:apply-templates select="//sportstage/thursday/morning/talk[1]/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//sportstage/thursday/morning/talk[1]/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/thursday/morning/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/thursday/morning/talk/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//sportstage/thursday/morning/talk[1]/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/morning/talk[1]/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/thursday/morning/talk/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/morning/talk[1]/speaker/info"/> </span>
 		    			</div>
 		    				
 		    			
@@ -89,80 +86,88 @@
 		    			
 		    			 
 		    		   <div class="time hidetue">
-		    			 tuesday div
-		    		   </div>
+		    			 		    		   </div>
 
 		    		    <div class="time hidewed">
 		    		    	<span>Time</span>
-		    		       <p> <xsl:apply-templates select="//sportStage/wednesday/afternoon/talk/time/start"/> </p>
+		    		       <p> <xsl:apply-templates select="//datastage/wednesday/morning/talk[2]/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		    	thur div
+		    		    	<p> <xsl:apply-templates select="//datastage/wednesday/morning/talk[2]/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
 
 		    		   <div class="contentWrapper hidetue">
-	     					 <h1><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/description"/> </p>
-		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/tuesday/afternoon/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker"/> </span>
-		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker/info"/> </span>
+	     				 <span> </span>
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <h1><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/description"/> </p>
+			    			 <h2 class="talktitle"><xsl:apply-templates select="//sportstage/wednesday/morning/talk[2]/details//title"/></h2>
+		     				 <p><xsl:apply-templates select="//sportstage/wednesday/morning/talk[2]/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/tuesday/afternoon/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker"/> </span>
+		     				 <img width="50px" height="50px" src='{//sportstage/wednesday/morning/talk[2]/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/morning/talk[2]/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/morning/talk[2]/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    					 <h1><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/title"/></h1>
-		     				 <p><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/details/description"/> </p>
+							<h1 class="talktitle"><xsl:apply-templates select="//sportstage/thursday/morning/talk[2]/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//sportstage/thursday/morning/talk[2]/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
-		     				 <img width="50px" height="50px" src='{//sportStage/tuesday/afternoon/talk/speaker/image}'></img>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker/name"/> </span>
+		     				 <img width="50px" height="50px" src='{//sportstage/thursday/morning/talk[2]/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/morning/talk[2]/speaker"/> </span>
 		     				  <br></br>
-		     				 <span><xsl:apply-templates select="//sportStage/tuesday/afternoon/talk/speaker/info"/> </span>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/morning/talk[2]/speaker/info"/> </span>
+		    			
 		    			</div>
 		    				
 	                       
 		    		 </li>
+		    		 
+		    		 
 
 
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    	         <div class="time hidetue">
-		    			 tuesday div
+		    		
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	wed div
+		    		    	<p> <xsl:apply-templates select="//datastage/wednesday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		    	thur div
+		    		    	<p> <xsl:apply-templates select="//datastage/thursday/afternoon/talk/time/start"/> </p>
 		    		    </div>
 		    		    
 		    		    
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <span> tuesday div</span>
+	     			        No results	 
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-		    				wed div
+		    				<h1 class="talktitle"><xsl:apply-templates select="//sportstage/wednesday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//sportstage/wednesday/afternoon/talk/details/description"/> </p>
+		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+		     				 <img width="50px" height="50px" src='{//sportstage/wednesday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/afternoon/talk/speaker"/> </span>
+		     				  <br></br>
+		     				 <span><xsl:apply-templates select="//sportstage/wednesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				thur div
+		    			   <h1 class="talktitle"><xsl:apply-templates select="//sportstage/thursday/afternoon/talk/details/title"/></h1>
+		     				 <p><xsl:apply-templates select="//sportstage/thursday/afternoon/talk/details/description"/> </p>
+		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
+		     				 <img width="50px" height="50px" src='{//sportstage/thursday/afternoon/talk/speaker/image}'></img>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/afternoon/talk/speaker/name"/> </span>
+		     				  <br></br>
+		     				 <span><xsl:apply-templates select="//sportstage/thursday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 	                       
 		    		 </li>
@@ -171,20 +176,22 @@
 	    	</div>
 
 
-	    </div>
+	
 
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    
+    <script type="text/javascript">
         
-      
-  
+       
+    </script>
+    
+    
 
     <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 								
-
+</html>
    
 
 
@@ -216,7 +223,7 @@
 
 </xsl:template>
 
-<xsl:template match="description">
+<xsl:template match="info">
 
    <xsl:value-of select="."/>
 

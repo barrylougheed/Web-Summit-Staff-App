@@ -1,9 +1,17 @@
 $(function(){
 	        $('#homemain').on('click','#btnTue',function(event){
-	        	alert('tuesday button click working');
 	              $('.hidewed').hide();
 	              $('.hidethur').hide();
+	              
+	              var content = $('.hidetue').html();
+	              
+	              if(content == " " || null){
+	              		$('.hidetue').html('No results');
+	              		
+	              }
 	              $('.hidetue').show();
+	              
+	              
 	             
 	            });
 	            

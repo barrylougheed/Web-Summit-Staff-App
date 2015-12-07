@@ -10,9 +10,9 @@
  $xml = ("XML/rssfeed.xml");
  $xmlFile = new DOMDocument();
  $xmlFile->load($xml);
- $channel = $xmlFile->getElementsByTagName('channel')->item(0);
- $ch_title = $channel->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
- $ch_link = $channel->getElementsByTagName('link')->item(0)->childNodes->item(0)->nodeValue;
+ $channel = $xmlFile->getElementsByTagName('item')->item(0);
+ $ch_title = $xmlFile->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
+ $ch_link = $xmlFile->getElementsByTagName('link')->item(0)->childNodes->item(0)->nodeValue;
  
 //echo("<p><a href='". $ch_link . "'>" . $ch_title . "</a></p>");
 ?>
@@ -23,13 +23,17 @@
 	<div id="rsscontent" class="row">
 <?php
 $news = $xmlFile->getElementsByTagName('item');
-for($i=0; $i<3; $i++){
+$temp=count($news->getElementsByTagName('item'));
+for($i=0; $i<$temp; $i++){
 	if($i>0){echo("<hr></hr>");}
+	//title = $news->item($i)->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
+	//$link = $news->item($i)->getElementsByTagName('link')->item(0)->childNodes->item(0)->nodeValue;
+	//$image=$news->item($i)->getElementsByTagName('image')->item(0)->childNodes->item(0)->nodeValue;
+	//$description = $news->item($i)->getElementsByTagName('description')->item(0)->childNodes->item(0)->nodeValue;
 	$title = $news->item($i)->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
 	$link = $news->item($i)->getElementsByTagName('link')->item(0)->childNodes->item(0)->nodeValue;
 	$image=$news->item($i)->getElementsByTagName('image')->item(0)->childNodes->item(0)->nodeValue;
 	$description = $news->item($i)->getElementsByTagName('description')->item(0)->childNodes->item(0)->nodeValue;
-
 	//echo("<p><a href='" . $link ."'>" . $title ."</a>");
 	//echo("<br/>");
 	//echo("<img src='" . $image . "' width='50' height='50'></img>");

@@ -15,7 +15,7 @@
  <html>
 
 	    <div id="talkcontent">
-
+			<link rel="stylesheet" type="text/css" href="./CSS/style.css"/>
 	    <div id="daysnav">
 
 	    		
@@ -40,12 +40,12 @@
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    		   
 		    		   <div class="time hidetue">
-		    			tue div
+		    			
 		    			 
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	wed div
+		    		    
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -55,7 +55,7 @@
 		    		    </div>
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <span> wednesday div</span>	 
+	     				 	 
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
@@ -63,7 +63,7 @@
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				<h4><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h4>
+		    				<h4 class="talktitle"><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h4>
 		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 		     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/morning/talk/speaker/image}'></img>
@@ -80,11 +80,11 @@
 		    			
 		    			 
 		    		   <div class="time hidetue">
-		    			 tuesday div
+		    			 
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	wed div
+		    		    	
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
@@ -95,15 +95,15 @@
 		    		    
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <span> tuesday div</span>
+	     				
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-			    			 <span>wed div</span>
+			    			 
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-			    			 <h1><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/details/title"/></h1>
+			    			 <h1 class="talktitle"><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/details/title"/></h1>
 			     				 <p><xsl:apply-templates select="//healthtechstage/thursday/afternoon/talk/details/description"/> </p>
 			     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
 			     				 <img width="50px" height="50px" src='{//healthtechstage/thursday/afternoon/talk/speaker/image}'></img>
@@ -119,29 +119,29 @@
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    			
 		    	         <div class="time hidetue">
-		    			 tuesday div
+		    			 
 		    		   </div>
 
 		    		    <div class="time hidewed">
-		    		    	wed div
+		    		    
 		    		    </div>
 		    		    
 		    		     <div class="time hidethur">
-		    		    	thur div
+		    		    
 		    		    </div>
 		    		    
 		    		    
 
 		    		   <div class="contentWrapper hidetue">
-	     				 <span> tuesday div</span>
+	     				
 		    			</div>
 
 		    			<div class="contentWrapper hidewed">
-		    				wed div
+		    				
 		    			</div>
 		    			
 		    			<div class="contentWrapper hidethur">
-		    				thur div
+		    			
 		    			</div>
 	                       
 		    		 </li>
@@ -158,17 +158,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript">
         
-        $(document).ready(function(){
-          
-           setTimeout(function(){
-           		$('#btnTue').trigger('click');
-           },10);
-          
-
-           
-            
-
-        });
+       
 
     </script>
     
