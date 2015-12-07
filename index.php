@@ -145,8 +145,6 @@
 
 
        
-         alert('working');
-         
          
     /*    $('#centrestage').on('click', function(){
           alert('on click working');   
@@ -273,8 +271,7 @@
      
 function dragAndDrop(){
 	
-       alert('drag being called');
-        
+     
           // var $timesList = ('#draggable');
           //    $($timesList,'li').draggable({
           //         revert: true
@@ -298,7 +295,7 @@ function dragAndDrop(){
              $('#dropable').droppable({
                 
                  drop:function(event,ui){
-                    alert("Drop Working");
+                   
                     $('.draggable').removeClass("tempStyleDraggable");
                     $('.draggable').addClass("talkholder");
 
