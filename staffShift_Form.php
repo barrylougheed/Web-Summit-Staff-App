@@ -4,12 +4,13 @@
 	<title>Web summit Staff App</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
 	<script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
 <body>
 	<div class="row">
 		<div class="col-xs-2">
 		</div>
-		<div class="col-xs-8">
+		<div class="col-xs-8" id="formpos">
 		<form role="form" id="staffDetails_form" action="writeToXML.php" method="POST">
 				<div class="form-group">
 					<label>title:</label>

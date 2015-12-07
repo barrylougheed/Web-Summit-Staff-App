@@ -54,15 +54,15 @@
 		    			 	<p> <xsl:apply-templates select="//healthtechstage/thursday/morning/talk/time/start"/> </p>
 		    		    </div>
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue"  id="tueDiv">
 	     				 	 
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed"  id="wedDiv">
 			    			
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur"  id="thurDiv">
 		    				<h4 class="talktitle"><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/title"/></h4>
 		     				 <p><xsl:apply-templates select="//healthtechstage/thursday/morning/talk/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->

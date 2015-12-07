@@ -154,15 +154,15 @@
 		    		    
 		    		    
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue" id="tueDiv">
 	     				 
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed"  id="wedDiv">
 		    				
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur"  id="thurDiv">
 		    				
 		    			</div>
 	                       

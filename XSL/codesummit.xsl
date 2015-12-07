@@ -40,7 +40,7 @@
 	    	 	
 		    		 <li class="talkholder draggable" onclick="location.href='#';" style="cursor:pointer">
 		    		   
-		    		   <div class="time hidetue">
+		    		   <div class="time hidetue" >
 		    			 
 		    		   </div>
 
@@ -53,14 +53,14 @@
 		    		      <p> <xsl:apply-templates select="//codestage/thursday/morning/talk[1]/time/start"/> </p>
 		    		    </div>
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue"  id="tueDiv">
 	     				
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed"  id="wedDiv">
 			    			
 		    			</div>
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur" id="thurDiv">
 		    				 <h1 class="talktitle"><xsl:apply-templates select="//codestage/thursday/morning/talk[1]/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//codestage/thursday/morning/talk[1]/details/info"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->

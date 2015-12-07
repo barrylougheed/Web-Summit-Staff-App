@@ -53,7 +53,7 @@
 		    		    
 		    		    </div>
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue"  id="tueDiv">
 	     				 <h1 class="talktitle"><xsl:apply-templates select="//designstage/tuesday/morning/talk[1]/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//designstage/tuesday/morning/talk[1]/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
@@ -63,11 +63,11 @@
 		     				 <span><xsl:apply-templates select="//designstage/tuesday/morning/talk[1]/speaker/info"/> </span>
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed" id="wedDiv">
 			    			 
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur" id="thurWed">
 		    				
 		    			</div>
 		    				

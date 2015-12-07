@@ -23,8 +23,8 @@
 	<div id="rsscontent" class="row">
 <?php
 $news = $xmlFile->getElementsByTagName('item');
-$temp=count($news->getElementsByTagName('item'));
-for($i=0; $i<$temp; $i++){
+//$temp=count($news->getElementsByTagName('item'));
+for($i=0; $i<4; $i++){
 	if($i>0){echo("<hr></hr>");}
 	//title = $news->item($i)->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
 	//$link = $news->item($i)->getElementsByTagName('link')->item(0)->childNodes->item(0)->nodeValue;

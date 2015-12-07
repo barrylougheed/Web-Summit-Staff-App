@@ -221,23 +221,19 @@
   */
   
   
-  
+  /* code form: http://api.jquery.com/jquery.ajax/ */
    $.ajax({
             
             type:"GET",
             url: url,
             cache: false,
             dataType:'html',
-            beforeSend:function(){
-              alert('before ajax is sent');
-              $('#homemain').html('<img src="images/ajax-loader.gif"></img>');
-            },
             success:function(data){
             	console.log(data);
                   document.getElementById('homemain').innerHTML = data;
                    hideDivs();
                    dragAndDrop();
-                   styleTalks();
+                 
                 //	$('#homemain').load(data);
                 // if(data.success==true){
                 //     alert('data retrived from server')
@@ -336,11 +332,7 @@ function dragAndDrop(){
 
 }
 
-function styleTalks(){
- 
- 
- 
-}
+
      </script>
     
 								

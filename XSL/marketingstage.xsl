@@ -105,7 +105,7 @@
 		    		    
 		    		    
 
-		    		   <div class="contentWrapper hidetue">
+		    		   <div class="contentWrapper hidetue"  id="tueDiv">
 	     					 <h1 class="talktitle"><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
@@ -115,7 +115,7 @@
 		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 
-		    			<div class="contentWrapper hidewed">
+		    			<div class="contentWrapper hidewed"  id="wedDiv">
 			    			 <h1 class="talktitle"><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
@@ -125,7 +125,7 @@
 		     				 <span><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/speaker/info"/> </span>
 		    			</div>
 		    			
-		    			<div class="contentWrapper hidethur">
+		    			<div class="contentWrapper hidethur"  id="thurDiv">
 		    					 <h1 class="talktitle"><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/title"/></h1>
 		     				 <p><xsl:apply-templates select="//marketingstage/tuesday/afternoon/talk/details/description"/> </p>
 		     				 <!-- code learned from http://stackoverflow.com/questions/45904/how-do-you-add-an-image -->
